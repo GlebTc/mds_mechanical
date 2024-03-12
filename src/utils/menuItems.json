@@ -1,0 +1,25 @@
+{
+    "menu": [
+      {
+        "title": "Home",
+        "link": "/"
+      },
+      {
+        "title": "About Us",
+        "link": "/about"
+      },
+      {
+        "title": "Residential Services",
+        "link": "/residential-services"
+      },
+      {
+        "title": "Commercial Services",
+        "link": "/commercial-services"
+      },
+      {
+        "title": "Contact Us",
+        "link": "/contact"
+      }
+    ]
+  }
+  
