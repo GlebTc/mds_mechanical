@@ -1,25 +1,22 @@
-{
-    "menu": [
-      {
-        "title": "Home",
-        "link": "/"
-      },
-      {
-        "title": "About Us",
-        "link": "/about"
-      },
-      {
-        "title": "Residential Services",
-        "link": "/residential-services"
-      },
-      {
-        "title": "Commercial Services",
-        "link": "/commercial-services"
-      },
-      {
-        "title": "Contact Us",
-        "link": "/contact"
-      }
-    ]
+[
+  {
+    "title": "Home",
+    "href": "/"
+  },
+  {
+    "title": "About Us",
+    "href": "/about"
+  },
+  {
+    "title": "Residential Services",
+    "href": "/residential-services"
+  },
+  {
+    "title": "Commercial Services",
+    "href": "/commercial-services"
+  },
+  {
+    "title": "Contact Us",
+    "href": "/contact"
   }
-  
+]

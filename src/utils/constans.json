@@ -1,4 +1,19 @@
 {
-    "phone": "(905) 999-9999",
-    "email": "mdsmecanical@gmail.com"
+  "phone": "(905) 999-9999",
+  "email": "mdsmecanical@gmail.com",
+  "aria_label": "Hamilton | HVAC | Plumbing| MD's Mechanical",
+  "hero_messages": [
+    {
+      "title": "COMPREHENSIVE GAS FITTING SOLUTIONS",
+      "subtitle": "Providing expert gas fitting and piping services with a focus on professionalism and reliability in Hamilton, Burlington, Oakville, and surrounding areas."
+    },
+    {
+      "title": "Professional Plumbing Services",
+      "subtitle": "Delivering top-quality plumbing installations, repairs, and maintenance services to ensure the smooth operation of your systems in Hamilton, Burlington, Oakville, and surrounding cities."
+    },
+    {
+      "title": "BOILER, HEATING, AND GAS PIPING PROFESSIONALS",
+      "subtitle": "Your trusted partner for boiler, heating, and gas piping solutions, proudly serving Hamilton, Burlington, Oakville, and nearby regions with excellence and dedication."
+    }
+  ]
 }
