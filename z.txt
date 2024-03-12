@@ -1,0 +1,5 @@
+Main.tsx - Hero Overlay - 10
+HeroText.tsx Main Div - 20
+HeroText.tsx Navigation Buttons - 30
+HeroText.tsx Navigation Dots - 30
+HeroText.tsx Quote Button - 30
