@@ -5,7 +5,6 @@ import { usePathname } from "next/navigation";
 
 const DesktopMenu = () => {
   const pathname = usePathname();
-  console.log(pathname);
   return (
     <ul className="flex gap-4">
       {menuItems.map((item: any) => (

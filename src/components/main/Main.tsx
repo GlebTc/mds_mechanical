@@ -5,15 +5,12 @@ import HeroAboutNavButton from "./mainHero/HeroAboutNavButton";
 
 const Main = () => {
   return (
-    <div>
-      <section className="relative h-[calc(100vh-(var(--navbar-h)))]">
+      <div className="relative h-[calc(100vh-(var(--navbar-h)))]">
         <HeroImage />
         <HeroOverlay />
         <HeroText />
         <HeroAboutNavButton />
-      </section>
-      <section id="about"></section>
-    </div>
+      </div>
   );
 };
 

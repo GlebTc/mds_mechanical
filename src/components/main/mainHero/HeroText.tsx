@@ -1,29 +1,30 @@
 "use client";
 import { useState, useEffect } from "react";
-import heroMessages from "@/utils/constans.json";
+import constants from "@/utils/constans.json";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
 
 const HeroText = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const quoteButtonMB: number = 20;
 
   // Function to handle previous slide
   const handlePrevSlide = () => {
     setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? heroMessages.hero_messages.length - 1 : prevIndex - 1
+      prevIndex === 0 ? constants.hero_messages.length - 1 : prevIndex - 1
     );
   };
 
   // Function to handle next slide
   const handleNextSlide = () => {
     setCurrentIndex((prevIndex) =>
-      prevIndex === heroMessages.hero_messages.length - 1 ? 0 : prevIndex + 1
+      prevIndex === constants.hero_messages.length - 1 ? 0 : prevIndex + 1
     );
   };
 
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) =>
-        prevIndex === heroMessages.hero_messages.length - 1 ? 0 : prevIndex + 1
+        prevIndex === constants.hero_messages.length - 1 ? 0 : prevIndex + 1
       );
     }, 5000);
 
@@ -31,7 +32,7 @@ const HeroText = () => {
   }, []);
 
   return (
-    <div className="absolute left-0 top-0 z-[20] h-full w-[100vw] flex items-end justify-center">
+    <div className="absolute left-0 top-0 z-[20] h-full w-full flex items-end justify-center">
       {/* *************** Navigation Buttons *************** */}
       <button
         aria-label="Advantages Slider Previous Slide"
@@ -51,7 +52,7 @@ const HeroText = () => {
       </button>
       {/**************** Navigation Dots **************/}
       <div className="absolute bottom-8 left-0 right-0 flex justify-center gap-2 z-[30]">
-        {heroMessages.hero_messages.map((_, index) => (
+        {constants.hero_messages.map((_, index) => (
           <button
             aria-label="Advantages Slider Navigation Dot"
             title="Navigation Dot"
@@ -65,7 +66,7 @@ const HeroText = () => {
           />
         ))}
       </div>
-      {heroMessages.hero_messages.map((item, index) => (
+      {constants.hero_messages.map((item, index) => (
         <div
           key={index}
           className={`absolute top-0 left-0 w-full h-full transition-opacity duration-500 ${
@@ -74,9 +75,9 @@ const HeroText = () => {
               : "opacity-0 pointer-events-none"
           }`}
         >
-          <div className="flex flex-col justify-start items-center h-full px-10 pt-40 md:justify-center md:pt-0">
+          <div className="flex flex-col justify-start items-center h-full px-10 pt-10 sm:pt-20 md:pt-32">
             <div
-              className={`transition-opacity duration-500 delay-1000 text-center mb-8 ${
+              className={`transition-opacity duration-500 delay-1000 text-center mb-4 ${
                 index === currentIndex ? "opacity-100" : "opacity-0"
               }`}
             >
@@ -96,7 +97,13 @@ const HeroText = () => {
           </div>
         </div>
       ))}
-      <button className="z-[30] bg-red-600 mb-60 md:mb-52 px-2 py-1 rounded-md font-bold text-white text-xl">Request a Quote</button>
+      <button
+        className="z-[30] bg-red-600 mb-16 md:mb-40 lg:mb-60 px-2 py-1 rounded-md font-bold text-white text-xl hover:bg-red-700 duration-300"
+        aria-label={`${constants.aria_label} | Request a Quote`}
+        title="Request a Quote"
+      >
+        Request a Quote
+      </button>
     </div>
   );
 };
