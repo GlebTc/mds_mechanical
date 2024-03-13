@@ -5,7 +5,7 @@ const Navbar = () => {
   const componentName = "Navbar";
   return (
     <div
-      className={`${componentName}_MAIN_CONTAINER  h-[var(--navbar-h)] flex flex-col`}
+      className={`${componentName}_MAIN_CONTAINER h-[var(--navbar-h)] flex flex-col w-full`}
     >
       <NavbarFixedBar componentName={componentName} />
       <div

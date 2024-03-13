@@ -1,7 +1,7 @@
 {
-  "phone": "(905) 999-9999",
+  "phone": "(905) 746-9944",
   "email": "mdsmecanical@gmail.com",
-  "aria_label": "Hamilton | HVAC | Plumbing| MD's Mechanical",
+  "aria_label": "Hamilton | HVAC | Plumbing| MDS Mechanical",
   "hero_messages": [
     {
       "title": "COMPREHENSIVE GAS FITTING SOLUTIONS",
@@ -15,5 +15,10 @@
       "title": "BOILER, HEATING, AND GAS PIPING PROFESSIONALS",
       "subtitle": "Your trusted partner for boiler, heating, and gas piping solutions, proudly serving Hamilton, Burlington, Oakville, and nearby regions with excellence and dedication."
     }
-  ]
+  ],
+  "hero_message_delay": 5000,
+  "about_us_constants": {
+    "first_paragraph": "MDS Mechanical is a small yet robust, family-centered enterprise dedicated to delivering unparalleled service excellence. Our commitment to empathy, transparency, and integrity underscores every interaction we have with our clients.",
+    "second_paragraph": "At MDS Mechanical, our ethos revolves around ensuring our clients receive the utmost value and advantage from our services. We firmly adhere to the principle of “You get what you pay for.” Unlike others who may prioritize upselling, we prioritize your needs and aim to provide solutions that offer the best return on investment. We recognize the importance of sound financial decisions and are dedicated to offering services that align with your goals and budget, ensuring a rewarding experience with every engagement."
+  }
 }
