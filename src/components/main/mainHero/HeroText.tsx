@@ -32,7 +32,7 @@ const HeroText = () => {
   }, []);
 
   return (
-    <div className="absolute left-0 top-0 z-[20] h-full w-full flex items-end justify-center">
+    <div className="relative z-[20] h-full w-full flex flex-col justify-start items-center">
       {/* *************** Navigation Buttons *************** */}
       <button
         aria-label="Advantages Slider Previous Slide"
@@ -58,7 +58,7 @@ const HeroText = () => {
             title="Navigation Dot"
             key={index}
             className={`w-4 h-4 rounded-full bg-white border border-gray-300 ${
-              index === currentIndex ? "bg-red-500" : ""
+              index === currentIndex ? "bg-rose-500 duration-300" : ""
             }`}
             onClick={() => {
               setCurrentIndex(index);
@@ -66,39 +66,42 @@ const HeroText = () => {
           />
         ))}
       </div>
-      {constants.hero_messages.map((item, index) => (
-        <div
-          key={index}
-          className={`absolute top-0 left-0 w-full h-full transition-opacity duration-500 ${
-            index === currentIndex
-              ? "opacity-100"
-              : "opacity-0 pointer-events-none"
-          }`}
-        >
-          <div className="flex flex-col justify-start items-center h-full px-10 pt-10 sm:pt-20 md:pt-32">
-            <div
-              className={`transition-opacity duration-500 delay-1000 text-center mb-4 ${
-                index === currentIndex ? "opacity-100" : "opacity-0"
-              }`}
-            >
-              <h2 className="text-white text-3xl sm:text-4xl md:text-5xl font-bold">
-                {item.title}
-              </h2>
-            </div>
-            <div
-              className={`transition-opacity duration-500 delay-[1500ms] text-center ${
-                index === currentIndex ? "opacity-100" : "opacity-0"
-              }`}
-            >
-              <p className="text-red-300 text-lg sm:text-2xl md:text-3xl font-bold">
-                {item.subtitle}
-              </p>
+      {/**************** Hero Messages ***************/}
+      <div className="relative w-full h-[60%] my-12 md:mt-24 lg:mt-36">
+        {constants.hero_messages.map((item, index) => (
+          <div
+            key={index}
+            className={`absolute top-0 left-0 w-full transition-opacity duration-500 ${
+              index === currentIndex
+                ? "opacity-100"
+                : "opacity-0 pointer-events-none"
+            }`}
+          >
+            <div className="flex flex-col justify-start items-center h-full px-10">
+              <div
+                className={`transition-opacity duration-500 delay-1000 text-center mb-4 ${
+                  index === currentIndex ? "opacity-100" : "opacity-0"
+                }`}
+              >
+                <h2 className="text-white text-3xl sm:text-4xl md:text-5xl font-bold">
+                  {item.title}
+                </h2>
+              </div>
+              <div
+                className={`transition-opacity duration-500 delay-[1500ms] text-center ${
+                  index === currentIndex ? "opacity-100" : "opacity-0"
+                }`}
+              >
+                <p className="text-red-300 text-xl sm:text-3xl md:text-4xl font-bold">
+                  {item.subtitle}
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
       <button
-        className="z-[30] bg-red-600 mb-16 md:mb-40 lg:mb-60 px-2 py-1 rounded-md font-bold text-white text-xl hover:bg-red-700 duration-300"
+        className="z-[30] bg-red-600 px-2 py-1 rounded-md font-bold text-white text-xl hover:bg-red-700 duration-300"
         aria-label={`${constants.aria_label} | Request a Quote`}
         title="Request a Quote"
       >
