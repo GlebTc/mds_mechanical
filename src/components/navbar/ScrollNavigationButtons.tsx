@@ -19,44 +19,32 @@ const ScrollNavigationButtons = () => {
   }, []);
 
   return (
-    <>
-      <div className={``}>
-        <a
-          href="tel:+1234567890"
-          className={`${
-            isFixed ? "fixed" : "hidden"
-          } bottom-16 right-4 bg-red-600/80 text-white p-2 rounded-lg shadow-lg z-50 cursor-pointer hover:bg-red-700 duration-300`}
-        >
-          <FaPhone size={25} />
-        </a>
-        <a
-          href="mailto:test@test.com"
-          className={`${
-            isFixed ? "fixed" : "hidden"
-          } bottom-28 right-4 bg-red-600/80 text-white p-2 rounded-lg shadow-lg z-50 cursor-pointer hover:bg-red-700 duration-300`}
-        >
-          <IoMdMail size={25} />
-        </a>
-        <a
-          href="#navbar"
-          className={`${
-            isFixed ? "fixed" : "hidden"
-          } bottom-4 right-4 bg-red-600/80 text-white p-2 rounded-lg shadow-lg z-50 cursor-pointer hover:bg-red-700 duration-300`}
-        >
-          <FaAnglesUp size={25} />
-        </a>
-      </div>
+    <div>
       <a
-        href="#about"
+        href="tel:+1234567890"
         className={`${
-          isFixed ? "hidden" : "fixed"
-        } bottom-5 right-32 bg-red-600/70 px-2 py-1 text-white z-[30] flex justify-center gap-2 items-center rounded-md animate-bounce`}
+          isFixed ? "fixed" : "hidden"
+        } bottom-16 right-4 bg-red-600/80 text-white p-2 rounded-lg shadow-lg z-50 cursor-pointer hover:bg-red-700 duration-300`}
       >
-        <FaChevronCircleDown size={25}/>
-        <button className="font-bold text-lg">About Us</button>
+        <FaPhone size={25} />
       </a>
-      
-    </>
+      <a
+        href="mailto:test@test.com"
+        className={`${
+          isFixed ? "fixed" : "hidden"
+        } bottom-28 right-4 bg-red-600/80 text-white p-2 rounded-lg shadow-lg z-50 cursor-pointer hover:bg-red-700 duration-300`}
+      >
+        <IoMdMail size={25} />
+      </a>
+      <a
+        href="#navbar"
+        className={`${
+          isFixed ? "fixed" : "hidden"
+        } bottom-4 right-4 bg-red-600/80 text-white p-2 rounded-lg shadow-lg z-50 cursor-pointer hover:bg-red-700 duration-300`}
+      >
+        <FaAnglesUp size={25} />
+      </a>
+    </div>
   );
 };
 

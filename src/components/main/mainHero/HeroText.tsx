@@ -32,7 +32,7 @@ const HeroText = () => {
   }, []);
 
   return (
-    <div className="relative z-[20] h-full w-full flex flex-col justify-start items-center">
+    <div className="HERO_TEXT_MAIN_CONTAINER relative z-[20] h-full w-full flex flex-col justify-start items-center">
       {/* *************** Navigation Buttons *************** */}
       <button
         aria-label="Advantages Slider Previous Slide"
