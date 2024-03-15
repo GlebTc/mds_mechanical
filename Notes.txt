@@ -1,1 +1,0 @@
-The Navbar height is set to fit, see how it behaves once we have an actual logo image in palce.

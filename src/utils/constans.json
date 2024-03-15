@@ -5,20 +5,24 @@
   "hero_messages": [
     {
       "title": "COMPREHENSIVE GAS FITTING SOLUTIONS",
-      "subtitle": "Providing expert gas fitting and piping services with a focus on professionalism and reliability in Hamilton, Burlington, Oakville, and surrounding areas."
+      "text": "Providing expert gas fitting and piping services with a focus on professionalism and reliability in Hamilton, Burlington, Oakville, and surrounding areas."
     },
     {
       "title": "Professional Plumbing Services",
-      "subtitle": "Delivering top-quality plumbing installations, repairs, and maintenance services to ensure the smooth operation of your systems in Hamilton, Burlington, Oakville, and surrounding cities."
+      "text": "Delivering top-quality plumbing installations, repairs, and maintenance services to ensure the smooth operation of your systems in Hamilton, Burlington, Oakville, and surrounding cities."
     },
     {
       "title": "BOILER, HEATING, AND GAS PIPING PROFESSIONALS",
-      "subtitle": "Your trusted partner for boiler, heating, and gas piping solutions, proudly serving Hamilton, Burlington, Oakville, and nearby regions with excellence and dedication."
+      "text": "Your trusted partner for boiler, heating, and gas piping solutions, proudly serving Hamilton, Burlington, Oakville, and nearby regions with excellence and dedication."
     }
   ],
   "hero_message_delay": 5000,
   "about_us_constants": {
     "first_paragraph": "MDS Mechanical is a small yet robust, family-centered enterprise dedicated to delivering unparalleled service excellence. Our commitment to empathy, transparency, and integrity underscores every interaction we have with our clients.",
     "second_paragraph": "At MDS Mechanical, our ethos revolves around ensuring our clients receive the utmost value and advantage from our services. We firmly adhere to the principle of “You get what you pay for.” Unlike others who may prioritize upselling, we prioritize your needs and aim to provide solutions that offer the best return on investment. We recognize the importance of sound financial decisions and are dedicated to offering services that align with your goals and budget, ensuring a rewarding experience with every engagement."
+  },
+  "services_constants": {
+    "industrial": "At MDS Mechanical, we offer a comprehensive suite of services to meet all your heating, cooling, plumbing, and gas fitting needs. Our team of skilled professionals is committed to delivering top-quality solutions that are tailored to your unique requirements. We are dedicated to providing the highest level of service excellence, ensuring that your systems operate at peak efficiency and reliability.",
+    "residential": "Our services include, but are not limited to, the following:"
   }
 }

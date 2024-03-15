@@ -8,13 +8,14 @@
     "href": "/about-us"
   },
   {
-    "title": "Residential Services",
-    "href": "/residential-services"
-  },
-  {
     "title": "Commercial Services",
     "href": "/commercial-services"
   },
+  {
+    "title": "Residential Services",
+    "href": "/residential-services"
+  },
+
   {
     "title": "Contact Us",
     "href": "/contact"

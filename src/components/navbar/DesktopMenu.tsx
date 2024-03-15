@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 const DesktopMenu = () => {
   const pathname = usePathname();
   return (
-    <ul className="flex gap-4">
+    <ul className="flex gap-[1px] lg:gap-[10px] xl:gap-[20px]">
       {menuItems.map((item: any) => (
         <li
           key={item.title}
@@ -17,7 +17,7 @@ const DesktopMenu = () => {
           } rounded-md hover:bg-gray-300 duration-300 px-2`}
         >
           <Link href={item.href}>
-            <p>{item.title}</p>
+            <p className="xl:text-lg">{item.title}</p>
           </Link>
         </li>
       ))}

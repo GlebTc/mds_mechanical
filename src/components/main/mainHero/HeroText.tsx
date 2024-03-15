@@ -58,7 +58,7 @@ const HeroText = () => {
             title="Navigation Dot"
             key={index}
             className={`w-4 h-4 rounded-full bg-white border border-gray-300 ${
-              index === currentIndex ? "bg-rose-500 duration-300" : ""
+              index === currentIndex ? "bg-red-500 duration-300" : ""
             }`}
             onClick={() => {
               setCurrentIndex(index);
@@ -77,15 +77,15 @@ const HeroText = () => {
                 : "opacity-0 pointer-events-none"
             }`}
           >
-            <div className="flex flex-col justify-start items-center h-full px-10">
+            <div className="flex flex-col justify-start items-center h-full px-10 lg:px-80">
               <div
                 className={`transition-opacity duration-500 delay-1000 text-center mb-4 ${
                   index === currentIndex ? "opacity-100" : "opacity-0"
                 }`}
               >
-                <h2 className="text-white text-3xl sm:text-4xl md:text-5xl font-bold">
+                <h1 className="text-white text-3xl sm:text-4xl md:text-5xl font-bold">
                   {item.title}
-                </h2>
+                </h1>
               </div>
               <div
                 className={`transition-opacity duration-500 delay-[1500ms] text-center ${
@@ -93,7 +93,7 @@ const HeroText = () => {
                 }`}
               >
                 <p className="text-red-300 text-xl sm:text-3xl md:text-4xl font-bold">
-                  {item.subtitle}
+                  {item.text}
                 </p>
               </div>
             </div>
@@ -101,7 +101,7 @@ const HeroText = () => {
         ))}
       </div>
       <button
-        className="z-[30] bg-red-600 px-2 py-1 rounded-md font-bold text-white text-xl hover:bg-red-700 duration-300"
+        className="raq-button z-[30] bg-red-600 px-2 py-1 rounded-md font-bold text-white text-xl hover:bg-red-700 duration-300 md:mb-20"
         aria-label={`${constants.aria_label} | Request a Quote`}
         title="Request a Quote"
       >
