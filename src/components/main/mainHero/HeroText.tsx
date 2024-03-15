@@ -26,7 +26,7 @@ const HeroText = () => {
       setCurrentIndex((prevIndex) =>
         prevIndex === constants.hero_messages.length - 1 ? 0 : prevIndex + 1
       );
-    }, 5000);
+    }, 8000);
 
     return () => clearInterval(interval);
   }, []);
@@ -67,35 +67,33 @@ const HeroText = () => {
         ))}
       </div>
       {/**************** Hero Messages ***************/}
-      <div className="relative w-full h-[60%] my-12 md:mt-24 lg:mt-36">
+      <div className="relative w-full h-[75%]">
         {constants.hero_messages.map((item, index) => (
           <div
             key={index}
-            className={`absolute top-0 left-0 w-full transition-opacity duration-500 ${
+            className={`HERO_MESSAGES_CONTAINER absolute top-0 left-0 w-full p-12 h-[100%] flex flex-col justify-center transition-opacity duration-500 ${
               index === currentIndex
                 ? "opacity-100"
                 : "opacity-0 pointer-events-none"
             }`}
           >
-            <div className="flex flex-col justify-start items-center h-full px-10 lg:px-80">
-              <div
-                className={`transition-opacity duration-500 delay-1000 text-center mb-4 ${
-                  index === currentIndex ? "opacity-100" : "opacity-0"
-                }`}
-              >
-                <h1 className="text-white text-3xl sm:text-4xl md:text-5xl font-bold">
-                  {item.title}
-                </h1>
-              </div>
-              <div
-                className={`transition-opacity duration-500 delay-[1500ms] text-center ${
-                  index === currentIndex ? "opacity-100" : "opacity-0"
-                }`}
-              >
-                <p className="text-red-300 text-xl sm:text-3xl md:text-4xl font-bold">
-                  {item.text}
-                </p>
-              </div>
+            <div
+              className={`transition-opacity duration-500 delay-1000 text-center mb-4 ${
+                index === currentIndex ? "opacity-100" : "opacity-0"
+              }`}
+            >
+              <h1 className="text-white text-3xl sm:text-4xl md:text-5xl font-bold">
+                {item.title}
+              </h1>
+            </div>
+            <div
+              className={`transition-opacity duration-500 delay-[1500ms] text-center ${
+                index === currentIndex ? "opacity-100" : "opacity-0"
+              }`}
+            >
+              <p className="text-red-300 text-xl sm:text-3xl md:text-4xl font-bold">
+                {item.text}
+              </p>
             </div>
           </div>
         ))}
