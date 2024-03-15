@@ -50,7 +50,7 @@ const HeroText = () => {
       >
         <FaChevronRight />
       </button>
-      {/**************** Navigation Dots **************/}
+      {/**************** Navigation Dots **************}
       <div className="absolute bottom-8 left-0 right-0 flex justify-center gap-2 z-[30]">
         {constants.hero_messages.map((_, index) => (
           <button

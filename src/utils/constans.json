@@ -5,21 +5,21 @@
   "hero_messages": [
     {
       "title": "COMPREHENSIVE GAS FITTING SOLUTIONS",
-      "text": "Providing expert gas fitting and piping services with a focus on professionalism and reliability in Hamilton, Burlington, Oakville, and surrounding areas."
+      "text": "Expert gas fitting and piping services that emphasize professionalism and dependability in the Hamilton area and beyond."
     },
     {
       "title": "Professional Plumbing Services",
-      "text": "Delivering top-quality plumbing installations, repairs, and maintenance services to ensure the smooth operation of your systems in Hamilton, Burlington, Oakville, and surrounding cities."
+      "text": "High-quality plumbing solutions for installation, repair, and maintenance, serving Hamilton and its surrounding cities."
     },
     {
       "title": "BOILER, HEATING, AND GAS PIPING PROFESSIONALS",
-      "text": "Your trusted partner for boiler, heating, and gas piping solutions, proudly serving Hamilton, Burlington, Oakville, and nearby regions with excellence and dedication."
+      "text": "Trusted boiler, heating, and gas piping expertise, dedicated to serving Hamilton, Burlington, and Oakville regions."
     }
   ],
   "hero_message_delay": 5000,
   "about_us_constants": {
-    "first_paragraph": "MDS Mechanical is a small yet robust, family-centered enterprise dedicated to delivering unparalleled service excellence. Our commitment to empathy, transparency, and integrity underscores every interaction we have with our clients.",
-    "second_paragraph": "At MDS Mechanical, our ethos revolves around ensuring our clients receive the utmost value and advantage from our services. We firmly adhere to the principle of “You get what you pay for.” Unlike others who may prioritize upselling, we prioritize your needs and aim to provide solutions that offer the best return on investment. We recognize the importance of sound financial decisions and are dedicated to offering services that align with your goals and budget, ensuring a rewarding experience with every engagement."
+    "first_paragraph": "MDS Mechanical is not just a business; we are a vibrant and community-oriented enterprise dedicated to delivering unmatched service excellence. Our unwavering commitment to empathy, transparency, and integrity forms the foundation of every interaction we have with our valued clients. As a small yet robust organization, we take pride in our role within the community, working closely with local residents and businesses to provide personalized solutions that meet and exceed their expectations.",
+    "second_paragraph": "At MDS Mechanical, our guiding philosophy revolves around ensuring that our community members receive the utmost value and advantage from our diverse range of services. We firmly uphold the principle of “You get what you pay for,” prioritizing quality and reliability in every aspect of our operations. Unlike some companies that focus solely on sales, we prioritize the well-being of our community, striving to deliver tailored solutions that not only offer value but also contribute positively to the local economy. We understand the importance of making informed financial decisions and are dedicated to offering services that align seamlessly with the needs and aspirations of our community members, ensuring a consistently enriching and rewarding experience with every collaboration."
   },
   "services_constants": {
     "industrial": "At MDS Mechanical, we offer a comprehensive suite of services to meet all your heating, cooling, plumbing, and gas fitting needs. Our team of skilled professionals is committed to delivering top-quality solutions that are tailored to your unique requirements. We are dedicated to providing the highest level of service excellence, ensuring that your systems operate at peak efficiency and reliability.",
