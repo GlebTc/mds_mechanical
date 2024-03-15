@@ -1,19 +1,27 @@
 import NavbarFixedBar from "./NavbarFixedBar";
 import DesktopMenu from "./DesktopMenu";
+import Image from "next/image";
+import mds_logo from "../../../public/assets/images/mds_logo_2.webp";
 
 const Navbar = () => {
-  const componentName = "Navbar";
   return (
     <div
-      className={`${componentName}_MAIN_CONTAINER h-[var(--navbar-h)] flex flex-col w-full`}
+      className={`NAVBAR_MAIN_CONTAINER h-[var(--navbar-h-mobile)] md:h-[var(--navbar-h-desktop)] flex flex-col w-full`}
     >
-      <NavbarFixedBar componentName={componentName} />
+      <NavbarFixedBar />
       <div
-        className={`${componentName}_LOGO_AND_MENU_CONTAINER  bg-gray-400 h-full w-full flex justify-center md:justify-between items-center px-4`}
+        className={`NAVBAR_LOGO_AND_MENU_CONTAINER  bg-gray-400 h-full w-full flex justify-center md:justify-between items-center px-2 lg:px-20 pt-[var(--emerg-bar-h-mobile)] md:pt-[var(--emerg-bar-h-desktop)]`}
       >
-        <div className={`${componentName}_LOGO_CONTAINER] `}>Logo Here</div>
-        <nav className={`${componentName}_DESKTOP_MENU_CONTAINER hidden md:block`}>
-            <DesktopMenu />
+        <div className={`NAVBAR_LOGO_CONTAINER] w-[190px]`}>
+          <Image
+            src={mds_logo}
+            alt="MDS Logo"
+            placeholder="blur"
+            className="object-contain"
+          />
+        </div>
+        <nav className={`NAVBAR_DESKTOP_MENU_CONTAINER hidden md:block`}>
+          <DesktopMenu />
         </nav>
       </div>
     </div>

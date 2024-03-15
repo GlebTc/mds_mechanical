@@ -7,6 +7,37 @@ html {
 }
 
 :root {
-  --main-color: #f00;
-  --navbar-h: 160px;
+  --emerg-bar-h-desktop: 40px;
+  --emerg-bar-h-mobile: 100px;
+  --navbar-h-desktop: 120px;
+  --navbar-h-mobile: 180px;
+  --navbar-h-fold: 200px;
+}
+
+h3 {
+  @apply text-2xl font-bold mb-4;
+}
+
+
+
+/* Media Query for Samsung Fold (Width < 300px) */
+@media (max-width: 300px) {
+  :root {
+    --navbar-h-mobile: 200px; /* Adjust as needed */
+  }
+  h1 {
+    font-size: 24px !important;
+    line-height: 28px !important;
+  }
+  p {
+    font-size: 16px !important;
+    line-height: 20px !important;
+  }
+  /* Request a Quote Button */
+  .raq-button {
+    margin-bottom: 80px !important;
+  }
+  .NAVBAR_FIXED_TOP_BAR {
+    height: 120px !important;
+  }
 }
