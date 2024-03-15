@@ -5,7 +5,8 @@
   },
   {
     "title": "About Us",
-    "href": "/about-us"
+    "href": "/about-us",
+    "section": "about"
   },
   {
     "title": "Commercial Services",

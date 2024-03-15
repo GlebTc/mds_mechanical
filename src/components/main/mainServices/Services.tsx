@@ -4,8 +4,8 @@ import Link from "next/link";
 
 const Services = () => {
   return (
-    <div className="flex flex-col justify-center bg-gray-200 py-20 px-4">
-      <h2 className="text-2xl font-bold border-b-4 border-red-600 w-full md:w-[25%] mb-20">
+    <div className="flex flex-col justify-center bg-gray-200 pt-[var(--emerg-bar-h-mobile)] md:pt-[var(--emerg-bar-h-desktop)] px-4">
+      <h2 className="text-2xl font-bold border-b-4 border-red-600 w-full md:w-[25%] mb-12 mt-6">
         Who We Serve
       </h2>
       <div className="SERVICES_WRAPPER_COMPONENT w-full px-10 md:flex gap-8">
