@@ -10,10 +10,84 @@
   },
   {
     "title": "Commercial Services",
+    "subMenuArray": [
+      {
+        "path": "/commercial-services/boiler",
+        "name": "boiler",
+        "subTitle": "Boiler Services"
+      },
+      {
+        "path": "/commercial-services/gas-line",
+        "name": "gas-line",
+        "subTitle": "Gas Line"
+      },
+      {
+        "path": "/commercial-services/heating",
+        "name": "heating",
+        "subTitle": "Heating Services"
+      },
+      {
+        "path": "/commercial-services/indoor-air-quality",
+        "name": "indoor-air-quality",
+        "subTitle": "Indoor Air Quality"
+      },
+      {
+        "path": "/commercial-services/maintenance",
+        "name": "maintenance",
+        "subTitle": "Maintenance"
+      },
+      {
+        "path": "/commercial-services/repair",
+        "name": "repair",
+        "subTitle": "Repair"
+      }
+    ],
     "href": "/commercial-services"
   },
   {
     "title": "Residential Services",
+    "subMenuArray": [
+      {
+        "path": "/residential-services/air-conditioning",
+        "name": "air-conditioning",
+        "subTitle": "Air Conditioning"
+      },
+      {
+        "path": "/residential-services/boiler",
+        "name": "boiler",
+        "subTitle": "Boiler Services"
+      },
+      {
+        "path": "/residential-services/furnace",
+        "name": "furnace",
+        "subTitle": "Furnace Services"
+      },
+      {
+        "path": "/residential-services/gas-line",
+        "name": "gas-line",
+        "subTitle": "Gas Line"
+      },
+      {
+        "path": "/residential-services/heating",
+        "name": "heating",
+        "subTitle": "Heating Services"
+      },
+      {
+        "path": "/residential-services/indoor-air-quality",
+        "name": "indoor-air-quality",
+        "subTitle": "Indoor Air Quality"
+      },
+      {
+        "path": "/residential-services/maintenance",
+        "name": "maintenance",
+        "subTitle": "Maintenance"
+      },
+      {
+        "path": "/residential-services/repair",
+        "name": "repair",
+        "subTitle": "Repair"
+      }
+    ],
     "href": "/residential-services"
   },
 

@@ -8,7 +8,6 @@ const HeroImage = () => {
       alt="Main Hero Background"
       fill
       className="object-cover center"
-      placeholder="blur"
       priority
       quality={20}
     />
