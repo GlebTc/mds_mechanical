@@ -1,15 +1,16 @@
-import { FaPhone } from "react-icons/fa";
-import { IoMdMail, IoMdMenu } from "react-icons/io";
+import Image from "next/image";
+import logo from "../../../public/assets/images/mds_logo.webp";
 import constants from "@/utils/constans.json";
+import { IoMdMail } from "react-icons/io";
+import { FaPhone } from "react-icons/fa";
 
-const NavbarFixedBar = () => {
+const LogoContact = () => {
   return (
-    <div
-      className={`NAVBAR_FIXED_TOP_BAR fixed w-full h-[var(--emerg-bar-h-mobile)] md:h-[var(--emerg-bar-h-desktop)] bg-black flex flex-col md:flex-row justify-center items-center p-2 gap-2 md:gap-8 text-white z-[50]`}
-    >
-      <div className="absolute top-4 right-4 bg-gray-400 text-black rounded-md p-1 shadow-lg shadow-gray-400 md:hidden">
-        <IoMdMenu size={25} />
-      </div>
+    <div className="LOGO_AND_CONTACT_CONTAINER p-4">
+    <div className="LOGO_CONTAINER max-w-[50%] mx-auto mb-4">
+      <Image src={logo} alt="MDS Logo" />
+    </div>
+    <div className="CONTACT_CONTAINER flex flex-col gap-2">
       <div className="flex justify-center items-center gap-2">
         <FaPhone />
         <span> {constants.phone}</span>
@@ -25,7 +26,8 @@ const NavbarFixedBar = () => {
         </p>
       </div>
     </div>
-  );
-};
+  </div>
+  )
+}
 
-export default NavbarFixedBar;
+export default LogoContact

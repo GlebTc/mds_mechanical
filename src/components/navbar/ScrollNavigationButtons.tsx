@@ -37,7 +37,7 @@ const ScrollNavigationButtons = () => {
         <IoMdMail size={25} />
       </a>
       <a
-        href="#navbar"
+        href="#"
         className={`${
           isFixed ? "fixed" : "hidden"
         } bottom-4 right-4 bg-red-600/80 text-white p-2 rounded-lg shadow-lg z-50 cursor-pointer hover:bg-red-700 duration-300`}
