@@ -1,4 +1,4 @@
-# NextJS14 Template
+# MDS Mechanical
 
-- npx create-next-app@latest .
-- npm install dotenv next-auth react-icons
+- Built with NextJs 14
+- Deployed with Netlify
