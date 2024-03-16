@@ -1,7 +1,7 @@
 import NavbarFixedBar from "./NavbarFixedBar";
 import DesktopMenu from "./DesktopMenu";
 import Image from "next/image";
-import mds_logo from "../../../public/assets/images/mds_logo_2.webp";
+import mds_logo from "../../../public/assets/images//mds_logo.webp";
 import ScrollNavigationButtons from "./ScrollNavigationButtons";
 
 const Navbar = () => {
@@ -19,7 +19,6 @@ const Navbar = () => {
           <Image
             src={mds_logo}
             alt="MDS Logo"
-            placeholder="blur"
             className="object-contain"
           />
         </div>
