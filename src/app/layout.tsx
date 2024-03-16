@@ -7,10 +7,22 @@ import Footer from "@/components/footer/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "HVAC | Heating | Gas | Air Conditioning | Plumbing | Electrical | 24/7 Emergency Services",
-  description: "HVAC | Heating | Gas | Air Conditioning | Plumbing | Electrical | 24/7 Emergency Services",
-  keywords: "HVAC, Heating, Gas, Air Conditioning, Plumbing, Electrical, 24/7 Emergency Services",
-
+  metadataBase: new URL("http://localhost:3000"),
+  title: {
+    default:
+      "HVAC | Heating | Gas | Air Conditioning | Plumbing | Electrical | 24/7 Emergency Services",
+    template: "%s - MDS Mechanical Services",
+  },
+  description:
+    "HVAC | Heating | Gas | Air Conditioning | Plumbing | Electrical | 24/7 Emergency Services",
+  twitter: {
+    title: "MDS Mechanical Services",
+    card: "summary_large_image",
+    description:
+      "HVAC | Heating | Gas | Air Conditioning | Plumbing | Electrical | 24/7 Emergency Services",
+  },
+  keywords:
+    "HVAC, Heating, Gas, Air Conditioning, Plumbing, Electrical, 24/7 Emergency Services",
 };
 
 export default function RootLayout({
@@ -24,7 +36,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Footer />
-        </body>
+      </body>
     </html>
   );
 }
