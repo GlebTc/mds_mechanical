@@ -2,8 +2,8 @@
   "domain": "https://mdsmechanical.ca",
   "phone": "(905) 746-9944",
   "emergency_phone": "(905) 746-9944",
-  "email": "mdsmecanical@gmail.com",
-  "aria_label": "Hamilton | HVAC | Plumbing| MDS Mechanical",
+  "email": "mdsmechanical@gmail.com",
+  "aria_label": "MDS Mechanical",
   "service_locations": ["Hamilton", "Burlington", "Oakville", "Ancaster", "Stoney Creek", "Dundas", "Waterdown", "Grimsby", "Brantford", "Caledonia", "Binbrook", "Mount Hope", "Surrounding Areas"],
   "hero_messages": [
     {

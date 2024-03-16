@@ -8,10 +8,9 @@ html {
 
 :root {
   --emerg-bar-h-desktop: 40px;
-  --emerg-bar-h-mobile: 100px;
+  --emerg-bar-h-mobile: 140px;
   --navbar-h-desktop: 120px;
-  --navbar-h-mobile: 180px;
-  --navbar-h-fold: 200px;
+  --navbar-h-mobile: 220px;
 }
 
 h3 {
@@ -23,7 +22,7 @@ h3 {
 /* Media Query for Samsung Fold (Width < 300px) */
 @media (max-width: 300px) {
   :root {
-    --navbar-h-mobile: 200px; /* Adjust as needed */
+    --navbar-h-mobile: 220px; /* Adjust as needed */
   }
   h1 {
     font-size: 24px !important;
