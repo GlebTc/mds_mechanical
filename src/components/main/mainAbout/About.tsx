@@ -36,7 +36,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div className="hidden md:block">
           <NextSectionScrollButton section="services" title="Services" />
         </div>
       </div>

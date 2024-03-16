@@ -12,7 +12,13 @@ const ServiceArea = () => {
             key={index}
             className="text-lg font-bold hover:text-red-600/70 cursor-pointer"
           >
-            {location}
+            <a
+              href={`https://en.wikipedia.org/wiki/${location},_Ontario`}
+              title={`Learn more about ${location} | ${constants.aria_label}`}
+              aria-label={`Learn more about ${location} | ${constants.aria_label}`}
+            >
+              {location}
+            </a>
           </li>
         ))}
       </ul>

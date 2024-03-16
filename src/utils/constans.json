@@ -4,7 +4,21 @@
   "emergency_phone": "(905) 746-9944",
   "email": "mdsmechanical@gmail.com",
   "aria_label": "MDS Mechanical",
-  "service_locations": ["Hamilton", "Burlington", "Oakville", "Ancaster", "Stoney Creek", "Dundas", "Waterdown", "Grimsby", "Brantford", "Caledonia", "Binbrook", "Mount Hope", "Surrounding Areas"],
+  "service_locations": [
+    "Hamilton",
+    "Burlington",
+    "Oakville",
+    "Ancaster",
+    "Stoney Creek",
+    "Dundas",
+    "Waterdown",
+    "Grimsby",
+    "Brantford",
+    "Caledonia",
+    "Binbrook",
+    "Mount Hope",
+    "Surrounding Areas"
+  ],
   "hero_messages": [
     {
       "title": "COMPREHENSIVE GAS FITTING SOLUTIONS",
@@ -35,5 +49,10 @@
       "first_paragraph": "MDS Mechanical is your trusted partner for a wide range of commercial HVAC services. From boiler room retrofits to commercial water heater and storage tank replacements, hydronic in-floor heating, snow melt systems, and radiant tube heater installations, we have the expertise and experience to handle all your commercial HVAC needs. Our commitment to quality and customer satisfaction sets us apart.",
       "second_paragraph": "When it comes to industrial and commercial services, compliance with building regulations and equipment guidelines is paramount. Our meticulous adherence to industry standards ensures that your systems are not only efficient and reliable but also compliant with all relevant codes and regulations. With MDS Mechanical, you can rest assured that your commercial HVAC needs are in capable and reliable hands."
     }
+  },
+  "boiler_page": {
+    "title": "Residential Boiler Repair, Installation, and Maintenance",
+    "first_paragraph": "When it comes to keeping your family and friends safe, warm, and comfortable throughout the cold, harsh winter months, you can rely on the unmatched expertise of MDS Mechanical. Over the years, we have built up a strong reputation as being one of the most knowledgeable, honest, and reliable HVAC and residential boiler replacement, installation, maintenance, and repair providers across Hamilton and the GTHA. If your current boiler or combi boiler system has reached the end of its lifecycle, or you are looking to be proactive and upgrade it, our expert gas technicians can make excellent replacement and installation recommendations that are perfectly tailored to the needs of your house and family.",
+    "second_paragraph": "We take great pride in delivering high-quality and trustworthy services, which is why we always schedule service consultations to thoroughly inspect your boiler and accurately diagnose the problem before providing you with multiple solutions so you can decide which route to take."
   }
 }

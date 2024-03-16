@@ -13,7 +13,7 @@ const Main = () => {
       <HeroImage />
       <HeroOverlay />
       <HeroText />
-      <div className="relative max-w-[1200px] mx-auto">
+      <div className="hidden md:block relative max-w-[1200px] mx-auto">
         <NextSectionScrollButton section="about" title="About Us" />
       </div>
     </div>

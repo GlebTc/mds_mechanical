@@ -5,7 +5,7 @@ import constants from "@/utils/constans.json";
 const NavbarFixedBar = () => {
   return (
     <div
-      className={`NAVBAR_FIXED_TOP_BAR fixed w-full h-[var(--emerg-bar-h-mobile)] md:h-[var(--emerg-bar-h-desktop)] bg-black flex flex-col md:flex-row justify-center items-center p-2 gap-2 md:gap-8 text-white z-[50]`}
+      className={`NAVBAR_FIXED_TOP_BAR fixed w-full h-[var(--emerg-bar-h-mobile)] md:h-[var(--emerg-bar-h-desktop)] bg-black flex flex-col md:flex-row justify-center items-center p-2 gap-2 md:gap-4 lg:gap-8 text-white z-[50]`}
     >
       <div className="absolute top-4 right-4 bg-gray-400 text-black rounded-md p-1 shadow-lg shadow-gray-400 md:hidden">
         <IoMdMenu size={25} />
