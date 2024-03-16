@@ -6,7 +6,7 @@ import NextSectionScrollButton from "@/components/reusable/NextSectionScrollButt
 
 const About = () => {
   return (
-    <div className="relative min-h-[100dvh] px-4 w-full mx-auto flex flex-col justify-start pt-[var(--emerg-bar-h-mobile)] md:pt-[var(--emerg-bar-h-desktop)]">
+    <div className="ABOUT_MAIN_CONTAINER relative min-h-[100dvh] px-4 w-full mx-auto flex flex-col justify-start pt-[var(--emerg-bar-h-mobile)] md:pt-[var(--emerg-bar-h-desktop)]">
       <h2 className="text-2xl font-bold border-b-4 border-red-600 w-full md:w-[25%] mb-12 mt-6">
         About Us
       </h2>
@@ -31,7 +31,9 @@ const About = () => {
           </div>
         </div>
       </div>
-      <NextSectionScrollButton section="services" title="Services" />
+      <div className="hidden md:block">
+      <NextSectionScrollButton section="services" title="Services"/>
+      </div>
     </div>
   );
 };

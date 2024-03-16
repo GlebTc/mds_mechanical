@@ -13,7 +13,9 @@ const Main = () => {
       <HeroImage />
       <HeroOverlay />
       <HeroText />
-      <NextSectionScrollButton section="about" title="About Us" />
+      <div className="hidden md:block">
+        <NextSectionScrollButton section="about" title="About Us" />
+      </div>
     </div>
   );
 };
