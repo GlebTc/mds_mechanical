@@ -6,7 +6,7 @@ export default function NotFound() {
       </h2>
       <p>
         Please check the URL and if you still experience error, please email our
-        developer at
+        developer at {' '}
         <a
           href="mailto:webdevelopmenthamilton@gmail.com"
           className="text-blue-500 hover:text-blue-700"

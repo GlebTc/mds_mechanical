@@ -10,20 +10,35 @@ const NavbarFixedBar = () => {
       <div className="absolute top-4 right-4 bg-gray-400 text-black rounded-md p-1 shadow-lg shadow-gray-400 md:hidden">
         <IoMdMenu size={25} />
       </div>
-      <div className="flex justify-center items-center gap-2">
+      <a
+        title={`Call ${constants.aria_label} at ${constants.phone}`}
+        aria-label={`Call ${constants.aria_label} at ${constants.phone}`}
+        href={`tel:${constants.phone}`}
+        className="flex justify-center items-center gap-2 hover:bg-gray-400 px-2 py-1 rounded-lg hover:text-black duration-500"
+      >
         <FaPhone />
         <span> {constants.phone}</span>
-      </div>
+      </a>
 
-      <div className="flex justify-center items-center gap-2">
+      <a
+        title={`Email ${constants.aria_label} at ${constants.email}`}
+        aria-label={`Email ${constants.aria_label} at ${constants.email}`}
+        href={`mailto:${constants.email}`}
+        className="flex justify-center items-center gap-2 hover:bg-gray-400 px-2 py-1 rounded-lg hover:text-black duration-500"
+      >
         <IoMdMail />
         <span> {constants.email}</span>
-      </div>
-      <div className="NAVBAR_EMERGENCY_CONTACT_CONTAINER flex justify-center items-center gap-2 bg-red-600 font-bold uppercase px-2 rounded-md animate-pulse text-center">
+      </a>
+      <a
+        title={`Emergency 24/7 Call ${constants.aria_label} at ${constants.emergency_phone}`}
+        aria-label={`Emergency 24/7 Call ${constants.aria_label} at ${constants.emergency_phone}`}
+        href={`tel:${constants.emergency_phone}`}
+        className="NAVBAR_EMERGENCY_CONTACT_CONTAINER flex justify-center items-center gap-2 bg-red-600 font-bold uppercase px-2 py-1 rounded-md animate-pulse text-center hover:text-black duration-500"
+      >
         <p>
           emergency 24/7 <span> {constants.emergency_phone}</span>
         </p>
-      </div>
+      </a>
     </div>
   );
 };

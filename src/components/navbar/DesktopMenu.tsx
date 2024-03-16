@@ -2,6 +2,7 @@
 import menuItems from "@/utils/menuItems.json";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import constants from "@/utils/constans.json";
 
 const DesktopMenu = () => {
   const pathname = usePathname();
@@ -16,7 +17,11 @@ const DesktopMenu = () => {
               : ""
           } rounded-md hover:bg-gray-300 duration-300 px-2`}
         >
-          <Link href={item.href}>
+          <Link
+            title={`Navigate to ${item.title} page navigation button | ${constants.aria_label}`}
+            aria-label={`${item.title} page navigation button | ${constants.aria_label}`}
+            href={item.href}
+          >
             <p className="xl:text-lg">{item.title}</p>
           </Link>
         </li>

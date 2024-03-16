@@ -7,7 +7,7 @@ import constants from "@/utils/constans.json";
 
 const Navbar = () => {
   return (
-    <div
+    <nav
       id="navbar"
       className={`NAVBAR_MAIN_CONTAINER h-[var(--navbar-h-mobile)] md:h-[var(--navbar-h-desktop)] flex flex-col w-full`}
     >
@@ -29,7 +29,7 @@ const Navbar = () => {
           <DesktopMenu />
         </nav>
       </div>
-    </div>
+    </nav>
   );
 };
 
