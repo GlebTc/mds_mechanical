@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { AiOutlineClose } from "react-icons/ai";
 import Image from "next/image";
-import mds_logo from "../../../../public/assets/images/mds_logo.webp";
+import logo from "../../../../public/assets/images/mds_logo.webp";
 import menuItems from "@/utils/constants/menuItems.json";
 import constants from "@/utils/constants/constans.json";
 import { usePathname } from "next/navigation";
@@ -36,11 +36,12 @@ const NavMobileMenu = ({
           </div>
           <div className="LOGO_IMAGE_AND_NAME_CONTAINER flex flex-wrap justify-center items-center px-4">
             <Image
-              src={mds_logo}
-              alt="Mike's logo"
+              src={logo}
+              title={`Footer Logo | ${constants.aria_label} | Navigate to Home`}
+              alt={`Footer Logo | ${constants.aria_label} | Navigate to Home`}
               width={100}
               height={100}
-              quality={100}
+              quality={20}
             />
           </div>
         </div>
@@ -60,7 +61,8 @@ const NavMobileMenu = ({
               >
                 <Link
                   href={item.href}
-                  aria-label={`${constants.aria_label} | ${item.title}`}
+                  title={`Navigate to ${item.title} page | ${constants.aria_label}`}
+                  aria-label={`Navigate to ${item.title} page | ${constants.aria_label}`}
                   className={`${
                     pathname === item.href
                       ? "p-2 custom_orange duration-500 rounded-lg uppercase h-[100%]"

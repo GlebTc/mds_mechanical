@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import main_hero_text from "@/utils/constants/content/main_hero_text.json";
 import constants from "@/utils/constants/constans.json";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
+import Link from "next/link";
 
 const HeroText = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -103,7 +104,13 @@ const HeroText = () => {
         aria-label={`${constants.aria_label} | Request a Quote`}
         title="Request a Quote"
       >
-        Request a Quote
+        <Link
+          href="contact"
+          title={`Navigate to Contact Us page | ${constants.aria_label}`}
+          aria-label={`Navigate to Contact Us page | ${constants.aria_label}`}
+        >
+          Request a Quote
+        </Link>
       </button>
     </div>
   );

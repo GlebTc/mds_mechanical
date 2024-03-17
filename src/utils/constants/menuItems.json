@@ -12,32 +12,32 @@
     "title": "Commercial Services",
     "TO_ADD_subMenuArray": [
       {
-        "path": "/commercial-services/boiler",
+        "href": "/commercial-services/boiler",
         "name": "boiler",
         "subTitle": "Boiler Services"
       },
       {
-        "path": "/commercial-services/gas-line",
+        "href": "/commercial-services/gas-line",
         "name": "gas-line",
         "subTitle": "Gas Line"
       },
       {
-        "path": "/commercial-services/heating",
+        "href": "/commercial-services/heating",
         "name": "heating",
         "subTitle": "Heating Services"
       },
       {
-        "path": "/commercial-services/indoor-air-quality",
+        "href": "/commercial-services/indoor-air-quality",
         "name": "indoor-air-quality",
         "subTitle": "Indoor Air Quality"
       },
       {
-        "path": "/commercial-services/maintenance",
+        "href": "/commercial-services/maintenance",
         "name": "maintenance",
         "subTitle": "Maintenance"
       },
       {
-        "path": "/commercial-services/repair",
+        "href": "/commercial-services/repair",
         "name": "repair",
         "subTitle": "Repair"
       }
@@ -48,42 +48,42 @@
     "title": "Residential Services",
     "TO_ADD_subMenuArray": [
       {
-        "path": "/residential-services/air-conditioning",
+        "href": "/residential-services/air-conditioning",
         "name": "air-conditioning",
         "subTitle": "Air Conditioning"
       },
       {
-        "path": "/residential-services/boiler",
+        "href": "/residential-services/boiler",
         "name": "boiler",
         "subTitle": "Boiler Services"
       },
       {
-        "path": "/residential-services/furnace",
+        "href": "/residential-services/furnace",
         "name": "furnace",
         "subTitle": "Furnace Services"
       },
       {
-        "path": "/residential-services/gas-line",
+        "href": "/residential-services/gas-line",
         "name": "gas-line",
         "subTitle": "Gas Line"
       },
       {
-        "path": "/residential-services/heating",
+        "href": "/residential-services/heating",
         "name": "heating",
         "subTitle": "Heating Services"
       },
       {
-        "path": "/residential-services/indoor-air-quality",
+        "href": "/residential-services/indoor-air-quality",
         "name": "indoor-air-quality",
         "subTitle": "Indoor Air Quality"
       },
       {
-        "path": "/residential-services/maintenance",
+        "href": "/residential-services/maintenance",
         "name": "maintenance",
         "subTitle": "Maintenance"
       },
       {
-        "path": "/residential-services/repair",
+        "href": "/residential-services/repair",
         "name": "repair",
         "subTitle": "Repair"
       }

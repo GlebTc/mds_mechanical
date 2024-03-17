@@ -3,6 +3,7 @@ import constants from "@/utils/constants/constans.json";
 import Image from "next/image";
 import Link from "next/link";
 import NextSectionScrollButton from "@/components/reusable/NextSectionScrollButton";
+import LearnMore from "@/components/reusable/LearnMore";
 
 const Services = () => {
   return (
@@ -12,11 +13,12 @@ const Services = () => {
           Who We Serve
         </h2>
         <div className="SERVICES_WRAPPER_COMPONENT w-full md:flex gap-8">
-          <div className="SERVICES_INDUSTRIAL_AND_COMMERCIAL_CONTAINER">
+          <div className="SERVICES_INDUSTRIAL_AND_COMMERCIAL_CONTAINER border-b-2 border-gray-400 md:border-none pb-4 md:pb-0">
             <div className="SERVICES_ICON_AND_TITLE_CONTAINER flex justify-start items-center gap-4 mb-4">
               <Image
                 src="https://www.svgrepo.com/show/87331/factory.svg"
                 alt={`${constants.aria_label} | Industrial and Commercial Services Image`}
+                title={`${constants.aria_label} | Industrial and Commercial Services Image`}
                 height={40}
                 width={40}
                 className="flex justify-center items-center"
@@ -31,24 +33,19 @@ const Services = () => {
               {services.main_services_text.commercial.first_paragraph}
             </p>
             <p>{services.main_services_text.commercial.second_paragraph}</p>
-            <Link
-              href="/commercial-services"
-              aria-label={`${constants.aria_label} | Industrial and Commerical Services Page Link`}
-            >
-              <button
-                className="bg-red-600 mb-16 px-4 py-2 rounded-md font-bold text-white text-xl hover:bg-red-700 duration-300 mt-8"
-                aria-label={`${constants.aria_label} | Learn More | Industrial and Commercial Services`}
-                title="Learn More | Industrial and Commercial Services"
-              >
-                Learn More
-              </button>
-            </Link>
+            <div className="my-4">
+              <LearnMore
+                section="Commercial Services"
+                href="commercial-services"
+              />
+            </div>
           </div>
-          <div className="SERVICES_RESIDENTIAL">
+          <div className="SERVICES_RESIDENTIAL mt-8 md:mt-0">
             <div className="SERVICES_ICON_AND_TITLE_CONTAINER flex justify-start items-center gap-4 mb-4">
               <Image
                 src="https://www.svgrepo.com/show/86988/home.svg"
                 alt={`${constants.aria_label} | Residentail Services Image`}
+                title={`${constants.aria_label} | Residentail Services Image`}
                 height={40}
                 width={40}
               />
@@ -60,18 +57,12 @@ const Services = () => {
               {services.main_services_text.residential.first_paragraph}
             </p>
             <p>{services.main_services_text.residential.second_paragraph}</p>
-            <Link
-              href="/residential-services"
-              aria-label={`${constants.aria_label} | Residential Services Page Link`}
-            >
-              <button
-                className="bg-red-600 mb-16 px-4 py-2 rounded-md font-bold text-white text-xl hover:bg-red-700 duration-300 mt-8"
-                aria-label={`${constants.aria_label} | Learn More | Residential Services`}
-                title="Learn More | Residential Services"
-              >
-                Learn More
-              </button>
-            </Link>
+            <div className="my-4">
+              <LearnMore
+                section="Residential Services"
+                href="residential-services"
+              />
+            </div>
           </div>
         </div>
       </div>

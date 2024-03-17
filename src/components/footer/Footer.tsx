@@ -21,7 +21,8 @@ const Footer = () => {
         <a
           href="https://www.webdevelopmenthamilton.com"
           className="text-[#90cdf4] text-2xl font-bold text-center hover:text-blue-100 w-fit mx-auto"
-          aria-label="© 2023 Web Development Hamilton. All rights reserved. | www.webdevelopmenthamilton.com | Web Development Hamilton"
+          aria-label={`© ${currentYear} Web Development Hamilton. All rights reserved. | www.webdevelopmenthamilton.com | Web Development Hamilton`}
+          title={`© ${currentYear} Web Development Hamilton. All rights reserved. | www.webdevelopmenthamilton.com | Web Development Hamilton`}
         >
           <h2>
             &copy; {currentYear} Web Development Hamilton. All rights reserved.
