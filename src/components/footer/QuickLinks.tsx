@@ -1,4 +1,5 @@
-import menuItems from "@/utils/menuItems.json";
+import menuItems from "@/utils/constants/menuItems.json";
+import constants from "@/utils/constants/constans.json";
 
 const QuickLinks = () => {
   return (
@@ -12,7 +13,13 @@ const QuickLinks = () => {
             key={index}
             className="text-lg font-bold hover:text-red-600/70 cursor-pointer"
           >
-            <a href={`${item.href}`}>{item.title}</a>
+            <a
+              title={`Navigate to ${item.title} page | ${constants.aria_label}`}
+              aria-label={`Navigate to ${item.title} page | ${constants.aria_label}`}
+              href={item.href}
+            >
+              {item.title}
+            </a>
           </li>
         ))}
       </ul>

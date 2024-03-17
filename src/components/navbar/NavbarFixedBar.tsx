@@ -1,6 +1,6 @@
 import { FaPhone } from "react-icons/fa";
 import { IoMdMail, IoMdMenu } from "react-icons/io";
-import constants from "@/utils/constans.json";
+import constants from "@/utils/constants/constans.json";
 
 const NavbarFixedBar = () => {
   return (

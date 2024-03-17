@@ -1,9 +1,9 @@
 "use client";
-import menuItems from "@/utils/menuItems.json";
+import menuItems from "@/utils/constants/menuItems.json";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import constants from "@/utils/constans.json";
+import constants from "@/utils/constants/constans.json";
 import DesktopDropdown from "./DesktopDropdown";
 
 const DesktopMenu = () => {
