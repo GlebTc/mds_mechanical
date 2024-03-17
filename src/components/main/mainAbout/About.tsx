@@ -1,7 +1,7 @@
 import Image from "next/image";
 import main_about from "../../../../public/assets/images/main_about.webp";
 import main_about_two from "../../../../public/assets/images/main_about_two.webp";
-import { main_about_us_text } from '@/utils/constants/content/about_us.json'
+import about from '@/utils/constants/content/about_us.json'
 import constants from '@/utils/constants/constans.json'
 import Link from "next/link";
 import NextSectionScrollButton from "@/components/reusable/NextSectionScrollButton";
@@ -30,10 +30,10 @@ const About = () => {
           </div>
           <div className="md:w-[45%]">
             <p className="mb-4 lg:text-md xl:text-lg">
-              {main_about_us_text.first_paragraph}
+              {about.main_about_us_text.first_paragraph}
             </p>
             <p className="lg:text-md xl:text-lg">
-              {main_about_us_text.second_paragraph}
+              {about.main_about_us_text.second_paragraph}
             </p>
             <div className="flex justify-center mt-4">
               <Link href="/about-us">

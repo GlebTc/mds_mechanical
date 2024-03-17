@@ -1,13 +1,14 @@
 import Image from "next/image";
-import logo from "../../../public/assets/images/mds_logo.webp";
+import logo from "../../../../public/assets/images/mds_logo.webp";
+import contact_us from "../../../../public/assets/images/contact_us.webp";
 import constants from "@/utils/constants/constans.json";
 import { IoMdMail } from "react-icons/io";
 import { FaPhone } from "react-icons/fa";
 
-const LogoContact = () => {
+const ContactInformation = () => {
   return (
     <div className="LOGO_AND_CONTACT_CONTAINER p-4">
-      <div className="LOGO_CONTAINER max-w-[50%] mx-auto mb-4">
+      <div className="LOGO_CONTAINER mx-auto mb-4">
         <a href="/">
           <Image src={logo} alt="MDS Logo" />
         </a>
@@ -28,8 +29,11 @@ const LogoContact = () => {
           </p>
         </div>
       </div>
+      <div className="CONTACT_US_IMAGE_CONTAINER max-w-[70%] mx-auto mt-8 text-center">
+        <p className="bg-yellow-300 p-8">Would be nice to have image here</p>
+      </div>
     </div>
   );
 };
 
-export default LogoContact;
+export default ContactInformation;

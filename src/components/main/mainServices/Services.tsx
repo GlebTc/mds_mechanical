@@ -1,4 +1,4 @@
-import { main_services_text } from "@/utils/constants/content/services.json";
+import services from "@/utils/constants/content/services.json";
 import constants from "@/utils/constants/constans.json";
 import Image from "next/image";
 import Link from "next/link";
@@ -6,9 +6,9 @@ import NextSectionScrollButton from "@/components/reusable/NextSectionScrollButt
 
 const Services = () => {
   return (
-    <div className="SERVICES_MAIN_CONTAINER relative min-h-[100dvh] px-4 w-full mx-auto flex flex-col justify-between bg-gray-200 pt-[var(--emerg-bar-h-mobile)] md:pt-[var(--emerg-bar-h-desktop)]">
-      <div className="max-w-[1200px] mx-auto">
-        <h2 className="text-2xl font-bold border-b-4 border-red-600 w-full md:w-[25%] mb-12 mt-6">
+    <div className="SERVICES_MAIN_CONTAINER relative min-h-[100dvh] w-full mx-auto flex flex-col justify-between bg-gray-200 pt-[var(--emerg-bar-h-mobile)] md:pt-[var(--emerg-bar-h-desktop)]">
+      <div className="max-w-[1200px] mx-auto p-4">
+        <h2 className="text-2xl font-bold border-b-4 border-red-600 w-full md:w-[25%] mb-12">
           Who We Serve
         </h2>
         <div className="SERVICES_WRAPPER_COMPONENT w-full md:flex gap-8">
@@ -23,14 +23,14 @@ const Services = () => {
               />
 
               <p className="text-md sm:text-xl md:text-2xl font-bold">
-                {main_services_text.commercial.title}
+                {services.main_services_text.commercial.title}
               </p>
             </div>
 
             <p className="mb-4">
-              {main_services_text.commercial.first_paragraph}
+              {services.main_services_text.commercial.first_paragraph}
             </p>
-            <p>{main_services_text.commercial.second_paragraph}</p>
+            <p>{services.main_services_text.commercial.second_paragraph}</p>
             <Link
               href="/commercial-services"
               aria-label={`${constants.aria_label} | Industrial and Commerical Services Page Link`}
@@ -53,13 +53,13 @@ const Services = () => {
                 width={40}
               />
               <p className="text-md sm:text-xl md:text-2xl font-bold">
-                {main_services_text.residential.title}
+                {services.main_services_text.residential.title}
               </p>
             </div>
             <p className="mb-4">
-              {main_services_text.residential.first_paragraph}
+              {services.main_services_text.residential.first_paragraph}
             </p>
-            <p>{main_services_text.residential.second_paragraph}</p>
+            <p>{services.main_services_text.residential.second_paragraph}</p>
             <Link
               href="/residential-services"
               aria-label={`${constants.aria_label} | Residential Services Page Link`}
