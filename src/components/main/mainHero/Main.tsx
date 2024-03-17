@@ -1,7 +1,6 @@
 import HeroImage from "./HeroImage";
 import HeroText from "./HeroText";
 import HeroOverlay from "./HeroOverlay";
-
 import NextSectionScrollButton from "@/components/reusable/NextSectionScrollButton";
 
 const Main = () => {

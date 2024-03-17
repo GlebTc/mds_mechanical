@@ -36,7 +36,7 @@ const Services = () => {
               aria-label={`${constants.aria_label} | Industrial and Commerical Services Page Link`}
             >
               <button
-                className="z-[30] bg-red-600 mb-16 px-4 py-2 rounded-md font-bold text-white text-xl hover:bg-red-700 duration-300 mt-8"
+                className="bg-red-600 mb-16 px-4 py-2 rounded-md font-bold text-white text-xl hover:bg-red-700 duration-300 mt-8"
                 aria-label={`${constants.aria_label} | Learn More | Industrial and Commercial Services`}
                 title="Learn More | Industrial and Commercial Services"
               >
@@ -65,7 +65,7 @@ const Services = () => {
               aria-label={`${constants.aria_label} | Residential Services Page Link`}
             >
               <button
-                className="z-[30] bg-red-600 mb-16 px-4 py-2 rounded-md font-bold text-white text-xl hover:bg-red-700 duration-300 mt-8"
+                className="bg-red-600 mb-16 px-4 py-2 rounded-md font-bold text-white text-xl hover:bg-red-700 duration-300 mt-8"
                 aria-label={`${constants.aria_label} | Learn More | Residential Services`}
                 title="Learn More | Residential Services"
               >

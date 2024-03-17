@@ -1,7 +1,10 @@
-Main.tsx - Hero Overlay - 10
-HeroText.tsx Main Div - 20
-HeroText.tsx Navigation Buttons - 30
-HeroText.tsx Navigation Dots - 30
-HeroText.tsx Quote Button - 30
-Navbar.tsx - NAVBAR_LOGO_AND_MENU_CONTAINER - 40
-NavbarFixedBar.tsx - 50
+Main.tsx - Hero Overlay - 5
+HeroText.tsx Main Div - 10
+HeroText.tsx Navigation Buttons - 15
+HeroText.tsx Navigation Dots - 15
+HeroText.tsx Quote Button - 15
+NextSeleectionScrollButton.tsx - 20
+Navbar.tsx - NAVBAR_LOGO_AND_MENU_CONTAINER - 25
+NavbarFixedBar.tsx - 30
+ScrollNavigationButtons - 35
+NavMobileMenu - 40

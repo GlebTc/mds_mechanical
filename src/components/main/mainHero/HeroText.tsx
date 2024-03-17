@@ -32,12 +32,12 @@ const HeroText = () => {
   }, []);
 
   return (
-    <div className="HERO_TEXT_MAIN_CONTAINER relative z-[20] h-full w-full flex flex-col justify-start items-center">
+    <div className="HERO_TEXT_MAIN_CONTAINER relative z-[10] h-full w-full flex flex-col justify-start items-center">
       {/* *************** Navigation Buttons *************** */}
       <button
         aria-label="Advantages Slider Previous Slide"
         title="Previous Slide"
-        className="absolute left-2 top-1/2 -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full ease-in-out duration-300 z-[30] hover:bg-gray-400"
+        className="absolute left-2 top-1/2 -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full ease-in-out duration-300 z-[15] hover:bg-gray-400"
         onClick={handlePrevSlide}
       >
         <FaChevronLeft />
@@ -45,13 +45,13 @@ const HeroText = () => {
       <button
         aria-label="Advantages Slider Next Slide"
         title="Next Slide"
-        className="absolute right-2 top-1/2 -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full ease-in-out duration-300 z-[30] hover:bg-gray-400"
+        className="absolute right-2 top-1/2 -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full ease-in-out duration-300 z-[15] hover:bg-gray-400"
         onClick={handleNextSlide}
       >
         <FaChevronRight />
       </button>
       {/**************** Navigation Dots **************}
-      <div className="absolute bottom-8 left-0 right-0 flex justify-center gap-2 z-[30]">
+      <div className="absolute bottom-8 left-0 right-0 flex justify-center gap-2 z-[15]">
         {constants.hero_messages.map((_, index) => (
           <button
             aria-label="Advantages Slider Navigation Dot"
@@ -99,7 +99,7 @@ const HeroText = () => {
         ))}
       </div>
       <button
-        className="raq-button z-[30] bg-red-600 px-2 py-1 rounded-md font-bold text-white text-xl hover:bg-red-700 duration-300 md:mb-20"
+        className="req-button z-[15] bg-red-600 px-2 py-1 rounded-md font-bold text-white text-xl hover:bg-red-700 duration-300 md:mb-20"
         aria-label={`${constants.aria_label} | Request a Quote`}
         title="Request a Quote"
       >
