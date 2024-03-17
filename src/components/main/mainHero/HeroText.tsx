@@ -1,30 +1,30 @@
 "use client";
 import { useState, useEffect } from "react";
-import constants from "@/utils/constans.json";
+import main_hero_text from "@/utils/constants/content/main_hero_text.json";
+import constants from "@/utils/constants/constans.json";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
 
 const HeroText = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const quoteButtonMB: number = 20;
 
   // Function to handle previous slide
   const handlePrevSlide = () => {
     setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? constants.hero_messages.length - 1 : prevIndex - 1
+      prevIndex === 0 ? main_hero_text.length - 1 : prevIndex - 1
     );
   };
 
   // Function to handle next slide
   const handleNextSlide = () => {
     setCurrentIndex((prevIndex) =>
-      prevIndex === constants.hero_messages.length - 1 ? 0 : prevIndex + 1
+      prevIndex === main_hero_text.length - 1 ? 0 : prevIndex + 1
     );
   };
 
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) =>
-        prevIndex === constants.hero_messages.length - 1 ? 0 : prevIndex + 1
+        prevIndex === main_hero_text.length - 1 ? 0 : prevIndex + 1
       );
     }, 8000);
 
@@ -68,7 +68,7 @@ const HeroText = () => {
       </div>
       {/**************** Hero Messages ***************/}
       <div className="relative w-full h-[75%]">
-        {constants.hero_messages.map((item, index) => (
+        {main_hero_text.map((item, index) => (
           <div
             key={index}
             className={`HERO_MESSAGES_CONTAINER absolute top-0 left-0 w-full p-12 h-[100%] flex flex-col justify-center transition-opacity duration-500 ${

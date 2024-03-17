@@ -1,7 +1,6 @@
-// This component is used in DesktopMenu.tsx to render the dropdown menu items if the navMenuItem has a subMenuArray.  I am still not completely sure how it works, the notes from AI are on the bottom.
 import Link from "next/link";
-import { AiOutlineCaretDown, AiOutlineCaretUp } from "react-icons/ai";
-import menuItems from "@/utils/menuItems.json";
+import { AiOutlineCaretUp } from "react-icons/ai";
+import menuItems from "@/utils/constants/menuItems.json";
 
 // interface for navMenuItems
 interface NavMenuItem {
@@ -44,7 +43,7 @@ const DesktopDropdown: React.FC<DesktopDropdownProps> = ({
               : "duration-[500ms] rotate-180"
           }`}
         >
-          {!subMenuOpen ? <AiOutlineCaretDown /> : <AiOutlineCaretUp />}
+          <AiOutlineCaretUp />
         </div>
 
         {title}

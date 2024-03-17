@@ -1,4 +1,4 @@
-import constants from "@/utils/constans.json";
+import constants from "@/utils/constants/constans.json";
 
 const ServiceArea = () => {
   return (

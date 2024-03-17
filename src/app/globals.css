@@ -7,9 +7,9 @@ html {
 }
 
 :root {
-  --emerg-bar-h-desktop: 40px;
+  --emerg-bar-h-desktop: 60px;
   --emerg-bar-h-mobile: 140px;
-  --navbar-h-desktop: 120px;
+  --navbar-h-desktop: 160px;
   --navbar-h-mobile: 220px;
 }
 

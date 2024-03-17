@@ -1,10 +1,10 @@
 "use client";
 import { useState, useEffect } from "react";
-import { FaAnglesUp } from "react-icons/fa6";
+import { FaAnglesUp, FaAngleDown } from "react-icons/fa6";
 import { FaPhone } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
-import menuItems from "@/utils/menuItems.json";
-import constants from "@/utils/constans.json";
+import menuItems from "@/utils/constants/menuItems.json";
+import constants from "@/utils/constants/constans.json";
 
 const ScrollNavigationButtons = () => {
   const [isFixed, setIsFixed] = useState(false);
@@ -52,6 +52,17 @@ const ScrollNavigationButtons = () => {
       >
         <FaAnglesUp size={25} />
       </a>
+      <a
+        href="#about"
+        title={`Return to ${menuItems[0].title} page | ${constants.aria_label}`}
+        aria-label={`Return to ${menuItems[0].title} page | ${constants.aria_label}`}
+        className={`${
+          isFixed ? "hidden" : "fixed"
+        } bottom-4 right-4 bg-red-600/80 text-white p-2 rounded-lg shadow-lg z-50 cursor-pointer hover:bg-red-700 duration-300 animate-bounce`}
+      >
+        <FaAngleDown size={25} />
+      </a>
+      
     </div>
   );
 };
