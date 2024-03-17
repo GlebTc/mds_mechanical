@@ -35,7 +35,7 @@ const Services = () => {
             <p>{services.main_services_text.commercial.second_paragraph}</p>
             <div className="my-4">
               <LearnMore
-                section="Commercial Services"
+                section="About Commercial Services"
                 href="commercial-services"
               />
             </div>
@@ -59,7 +59,7 @@ const Services = () => {
             <p>{services.main_services_text.residential.second_paragraph}</p>
             <div className="my-4">
               <LearnMore
-                section="Residential Services"
+                section="About Residential Services"
                 href="residential-services"
               />
             </div>
