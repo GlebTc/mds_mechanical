@@ -1,13 +1,23 @@
+"use client";
+import { useState } from "react";
 import { FaPhone } from "react-icons/fa";
 import { IoMdMail, IoMdMenu } from "react-icons/io";
 import constants from "@/utils/constants/constans.json";
+import NavMobileMenu from "./Mobile/NavMobileMenu";
 
 const NavbarFixedBar = () => {
+  const [mobileMenu, setMobileMenu] = useState(false);
+  const handleMobileMenu = () => {
+    setMobileMenu(!mobileMenu);
+  };
   return (
     <div
       className={`NAVBAR_FIXED_TOP_BAR fixed w-full h-[var(--emerg-bar-h-mobile)] md:h-[var(--emerg-bar-h-desktop)] bg-black flex flex-col md:flex-row justify-center items-center p-2 gap-2 md:gap-4 lg:gap-8 text-white z-[50]`}
     >
-      <div className="absolute top-4 right-4 bg-gray-400 text-black rounded-md p-1 shadow-lg shadow-gray-400 md:hidden">
+      <div
+        className="absolute top-4 right-4 bg-gray-400 text-black rounded-md p-1 shadow-lg shadow-gray-400 md:hidden cursor-pointer"
+        onClick={handleMobileMenu}
+      >
         <IoMdMenu size={25} />
       </div>
       <a
@@ -39,6 +49,12 @@ const NavbarFixedBar = () => {
           emergency 24/7 <span> {constants.emergency_phone}</span>
         </p>
       </a>
+      {mobileMenu && (
+        <NavMobileMenu
+          mobileMenu={mobileMenu}
+          handleMobileMenu={handleMobileMenu}
+        />
+      )}
     </div>
   );
 };
