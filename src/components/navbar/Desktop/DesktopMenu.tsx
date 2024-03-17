@@ -15,12 +15,10 @@ const DesktopMenu = () => {
       {menuItems.map((item: any, index: number) => {
         if (item.subMenuArray) {
           return (
-            <div
+            <li
               key={item.title}
               className="DROPDOWN_TITLE relative hover:bg-gray-300 px-2 rounded-lg flex justify-between items-center"
-              //On Mouse Enter the div pulls the index of a particular array item and sets subMenuOpen to that index.
               onMouseEnter={() => setSubMenuOpen(index)}
-              //On Mouse Leave, the div sets the setSubMenuOpen to null or falsy value.
               onMouseLeave={() => setSubMenuOpen(null)}
             >
               <DesktopDropdown
@@ -28,7 +26,7 @@ const DesktopMenu = () => {
                 subMenuOpen={subMenuOpen === index}
                 setSubMenuOpen={() => setSubMenuOpen(index)}
               />
-            </div>
+            </li>
           );
         } else {
           return (

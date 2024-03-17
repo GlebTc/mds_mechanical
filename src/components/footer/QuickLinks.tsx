@@ -4,7 +4,7 @@ import constants from "@/utils/constants/constans.json";
 const QuickLinks = () => {
   return (
     <div className="QUICK_LINKS_CONTAINER w-full p-4 flex flex-col justify-start ">
-      <h2 className="text-2xl font-bold border-b-4 border-red-600">
+      <h2 className="text-2xl font-bold border-b-4 border-red-600 w-full">
         Quick Links
       </h2>
       <ul className="flex flex-col gap-2 pt-2">

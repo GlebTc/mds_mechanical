@@ -33,7 +33,7 @@ const NavbarFixedBar = () => {
         title={`Emergency 24/7 Call ${constants.aria_label} at ${constants.emergency_phone}`}
         aria-label={`Emergency 24/7 Call ${constants.aria_label} at ${constants.emergency_phone}`}
         href={`tel:${constants.emergency_phone}`}
-        className="NAVBAR_EMERGENCY_CONTACT_CONTAINER flex justify-center items-center gap-2 bg-red-600 font-bold uppercase px-2 py-1 rounded-md animate-pulse text-center hover:text-black duration-500"
+        className="NAVBAR_EMERGENCY_CONTACT_CONTAINER flex justify-center items-center gap-2 bg-red-600 font-bold uppercase px-2 py-1 rounded-md animate-pulse text-center hover:text-black duration-500 mt-2 md:mt-0"
       >
         <p>
           emergency 24/7 <span> {constants.emergency_phone}</span>

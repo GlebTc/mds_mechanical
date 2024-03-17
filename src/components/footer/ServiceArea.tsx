@@ -6,7 +6,7 @@ const ServiceArea = () => {
       <h2 className="text-2xl font-bold border-b-4 border-red-600 w-full">
         Service Area
       </h2>
-      <ul className="grid grid-cols-2">
+      <ul className="grid grid-cols-2 pt-2 gap-2">
         {constants.service_locations.map((location, index) => (
           <li
             key={index}
