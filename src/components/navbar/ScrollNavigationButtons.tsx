@@ -57,7 +57,7 @@ const ScrollNavigationButtons = () => {
         title={`Return to ${menuItems[0].title} page | ${constants.aria_label}`}
         aria-label={`Return to ${menuItems[0].title} page | ${constants.aria_label}`}
         className={`${
-          isFixed ? "hidden" : "fixed"
+          isFixed ? "hidden" : "fixed md:hidden"
         } bottom-4 right-4 bg-red-600/80 text-white p-2 rounded-lg shadow-lg z-50 cursor-pointer hover:bg-red-700 duration-300 animate-bounce`}
       >
         <FaAngleDown size={25} />
