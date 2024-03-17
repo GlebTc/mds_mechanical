@@ -9,7 +9,7 @@ const LearnMore = ({ section, href }: { section: string, href: string }) => {
       title={`Learn More | Navigate to ${section} page | ${constants.aria_label}`}
       aria-label={`Learn More | Navigate to ${section} page | ${constants.aria_label}`}
     >
-      Learn More
+      More {section}
     </Link>
   );
 };

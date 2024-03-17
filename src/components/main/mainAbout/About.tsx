@@ -37,7 +37,7 @@ const About = () => {
               {about.main_about_us_text.second_paragraph}
             </p>
             <div className="flex justify-center mt-4">
-              <LearnMore section="About Us" href="about" />
+              <LearnMore section="About Us" href="about-us" />
             </div>
           </div>
         </div>
