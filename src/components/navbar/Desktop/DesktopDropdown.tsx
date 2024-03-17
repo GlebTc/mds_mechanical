@@ -28,7 +28,7 @@ const DesktopDropdown: React.FC<DesktopDropdownProps> = ({
   // find the navMenuItem that matches the title
   const matchedMenuItem = menuItems.find((item) => item.title === title);
   // the title prop already assumes that the navMenuItem has a subMenuArray and this variable decalres the array of sub menu items
-  const subMenuArray = matchedMenuItem?.subMenuArray || [];
+  // const subMenuArray = matchedMenuItem?.subMenuArray || [];
 
   return (
     <div>
@@ -48,7 +48,7 @@ const DesktopDropdown: React.FC<DesktopDropdownProps> = ({
 
         {title}
       </button>
-      {subMenuOpen && (
+      {/* {subMenuOpen && (
         <div className="absolute top-[20px] lg:top-[28px] pt-2 left-0 bg-gray-400 rounded-b-md flex flex-col gap-2 w-[200px]">
           {subMenuArray.map((item) => (
             <Link
@@ -60,7 +60,7 @@ const DesktopDropdown: React.FC<DesktopDropdownProps> = ({
             </Link>
           ))}
         </div>
-      )}
+      )} */}
     </div>
   );
 };
