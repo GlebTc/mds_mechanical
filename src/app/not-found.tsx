@@ -1,3 +1,5 @@
+import constants from "@/utils/constants/constans.json";
+
 export default function NotFound() {
   return (
     <div className="h-full bg-blue-100 flex justify-center items-center flex-col gap-4 py-20 px-4 text-center">
@@ -6,9 +8,11 @@ export default function NotFound() {
       </h2>
       <p>
         Please check the URL and if you still experience error, please email our
-        developer at {' '}
+        developer at
         <a
           href="mailto:webdevelopmenthamilton@gmail.com"
+          title={`Email Web Developer | webdevelopmenthamilton@gmail.com`}
+          aria-label={`Email Web Developer | webdevelopmenthamilton@gmail.com`}
           className="text-blue-500 hover:text-blue-700"
         >
           webdevelopmenthamilton@gmail.com
@@ -17,6 +21,8 @@ export default function NotFound() {
       <p>Error Code: 404 (Page Not Found)</p>
       <a
         href="/"
+        title={`Navigate back to Home Page | ${constants.aria_label}`}
+        aria-label={`Navigate back to Home Page | ${constants.aria_label}`}
         className="bg-blue-300 px-2 py-1 rounded-lg hover:bg-blue-400 duration-300"
       >
         Return Home

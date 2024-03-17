@@ -23,9 +23,9 @@ const ScrollNavigationButtons = () => {
   return (
     <div>
       <a
-        title={`Call ${constants.aria_label} at ${constants.phone}`}
-        aria-label={`Call ${constants.aria_label} at ${constants.phone}`}
         href={`tel:${constants.phone}`}
+        title={`Phone Contact | ${constants.phone} | ${constants.aria_label}`}
+        aria-label={`Phone Contact | ${constants.phone} | ${constants.aria_label}`}
         className={`${
           isFixed ? "fixed" : "hidden"
         } bottom-16 right-4 bg-red-600/80 text-white p-2 rounded-lg shadow-lg cursor-pointer hover:bg-red-700 duration-300 z-[40]`}
@@ -33,9 +33,9 @@ const ScrollNavigationButtons = () => {
         <FaPhone size={25} />
       </a>
       <a
-        title={`Email ${constants.aria_label} at ${constants.email}`}
-        aria-label={`Email ${constants.aria_label} at ${constants.email}`}
         href={`mailto:${constants.email}`}
+        title={`Email Contact | ${constants.email} | ${constants.aria_label}`}
+        aria-label={`Email Contact | ${constants.email} | ${constants.aria_label}`}
         className={`${
           isFixed ? "fixed" : "hidden"
         } bottom-28 right-4 bg-red-600/80 text-white p-2 rounded-lg shadow-lg cursor-pointer hover:bg-red-700 duration-300 z-[40]`}
@@ -44,8 +44,8 @@ const ScrollNavigationButtons = () => {
       </a>
       <a
         href="#"
-        title={`Return to ${menuItems[0].title} page | ${constants.aria_label}`}
-        aria-label={`Return to ${menuItems[0].title} page | ${constants.aria_label}`}
+        title={`Navigate back to Home Page | ${constants.aria_label}`}
+        aria-label={`Navigate back to Home Page | ${constants.aria_label}`}
         className={`${
           isFixed ? "fixed" : "hidden"
         } bottom-4 right-4 bg-red-600/80 text-white p-2 rounded-lg shadow-lg cursor-pointer hover:bg-red-700 duration-300 z-[40]`}
@@ -54,8 +54,8 @@ const ScrollNavigationButtons = () => {
       </a>
       <a
         href="#about"
-        title={`Return to ${menuItems[0].title} page | ${constants.aria_label}`}
-        aria-label={`Return to ${menuItems[0].title} page | ${constants.aria_label}`}
+        title={`Navigate to Contact Us section | ${constants.aria_label}`}
+        aria-label={`Navigate to Contact Us section | ${constants.aria_label}`}
         className={`${
           isFixed ? "hidden" : "fixed md:hidden"
         } bottom-4 right-4 bg-red-600/80 text-white p-2 rounded-lg shadow-lg cursor-pointer hover:bg-red-700 duration-300 animate-bounce z-[40]`}

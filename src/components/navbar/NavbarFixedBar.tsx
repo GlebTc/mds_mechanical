@@ -21,29 +21,28 @@ const NavbarFixedBar = () => {
         <IoMdMenu size={25} />
       </div>
       <a
-        title={`Call ${constants.aria_label} at ${constants.phone}`}
-        aria-label={`Call ${constants.aria_label} at ${constants.phone}`}
-        href={`tel:${constants.phone}`}
         className="flex justify-center items-center gap-2 hover:bg-gray-400 px-2 py-1 rounded-lg hover:text-black duration-500"
+        href={`tel:${constants.phone}`}
+        title={`Phone Contact | ${constants.phone} | ${constants.aria_label}`}
+        aria-label={`Phone Contact | ${constants.phone} | ${constants.aria_label}`}
       >
         <FaPhone />
         <span> {constants.phone}</span>
       </a>
-
       <a
-        title={`Email ${constants.aria_label} at ${constants.email}`}
-        aria-label={`Email ${constants.aria_label} at ${constants.email}`}
-        href={`mailto:${constants.email}`}
         className="flex justify-center items-center gap-2 hover:bg-gray-400 px-2 py-1 rounded-lg hover:text-black duration-500"
+        href={`mailto:${constants.email}`}
+        title={`Email Contact | ${constants.email} | ${constants.aria_label}`}
+        aria-label={`Email Contact | ${constants.email} | ${constants.aria_label}`}
       >
         <IoMdMail />
         <span> {constants.email}</span>
       </a>
       <a
-        title={`Emergency 24/7 Call ${constants.aria_label} at ${constants.emergency_phone}`}
-        aria-label={`Emergency 24/7 Call ${constants.aria_label} at ${constants.emergency_phone}`}
-        href={`tel:${constants.emergency_phone}`}
         className="NAVBAR_EMERGENCY_CONTACT_CONTAINER flex justify-center items-center gap-2 bg-red-600 font-bold uppercase px-2 py-1 rounded-md animate-pulse text-center hover:text-black duration-500 mt-2 md:mt-0"
+        href={`tel:${constants.emergency_phone}`}
+        title={`Emergency | 24/7 | Phone Contact | ${constants.emergency_phone} | ${constants.aria_label}`}
+        aria-label={`Emergency | 24/7 | Phone Contact | ${constants.emergency_phone} | ${constants.aria_label}`}
       >
         <p>
           emergency 24/7 <span> {constants.emergency_phone}</span>

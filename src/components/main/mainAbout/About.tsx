@@ -2,9 +2,9 @@ import Image from "next/image";
 import main_about from "../../../../public/assets/images/main_about.webp";
 import main_about_two from "../../../../public/assets/images/main_about_two.webp";
 import about from "@/utils/constants/content/about_us.json";
-import constants from "@/utils/constants/constans.json";
-import Link from "next/link";
 import NextSectionScrollButton from "@/components/reusable/NextSectionScrollButton";
+import LearnMore from "@/components/reusable/LearnMore";
+import constants from "@/utils/constants/constans.json";
 
 const About = () => {
   return (
@@ -17,13 +17,14 @@ const About = () => {
           <div className="ABOUT_IMAGES_CONTAINER flex flex-col justify-start">
             <Image
               src={main_about}
-              alt="Main About"
-              placeholder="blur"
+              title={`About Page Image| Residential Boiler | ${constants.aria_label}`}
+              alt={`About Page Image| Residential Boiler | ${constants.aria_label}`}
               className="rounded-md shadow-md shadow-gray-500 mb-4"
             />
             <Image
               src={main_about_two}
-              alt="Main About Two"
+              title={`About Page Image| Commercial and Industrial Air Handling Unit | ${constants.aria_label}`}
+              alt={`About Page Image| Commercial and Industrial Air Handling Unit | ${constants.aria_label}`}
               placeholder="blur"
               className="rounded-md shadow-md shadow-gray-500 hidden md:block"
             />
@@ -36,15 +37,7 @@ const About = () => {
               {about.main_about_us_text.second_paragraph}
             </p>
             <div className="flex justify-center mt-4">
-              <Link href="/about-us">
-                <button
-                  className="bg-red-600 mb-16 px-4 py-2 rounded-md font-bold text-white text-xl hover:bg-red-700 duration-300"
-                  aria-label={`${constants.aria_label} | Learn More | About Us`}
-                  title="Learn More | About Us"
-                >
-                  Learn More
-                </button>
-              </Link>
+              <LearnMore section="About Us" href="about" />
             </div>
           </div>
         </div>

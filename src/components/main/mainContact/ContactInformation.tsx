@@ -9,8 +9,16 @@ const ContactInformation = () => {
   return (
     <div className="LOGO_AND_CONTACT_CONTAINER p-4">
       <div className="LOGO_CONTAINER mx-auto mb-4">
-        <a href="/">
-          <Image src={logo} alt="MDS Logo" />
+        <a
+          href="/"
+          title={`Navigate back to Home Page | ${constants.aria_label}`}
+          aria-label={`Navigate back to Home Page | ${constants.aria_label}`}
+        >
+          <Image
+            src={logo}
+            title={`Footer Logo | ${constants.aria_label} | Navigate to Home`}
+            alt={`Footer Logo | ${constants.aria_label} | Navigate to Home`}
+          />
         </a>
       </div>
       <div className="CONTACT_CONTAINER flex flex-col gap-2">

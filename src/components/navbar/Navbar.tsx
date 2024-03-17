@@ -1,8 +1,7 @@
 import NavbarFixedBar from "./NavbarFixedBar";
 import DesktopMenu from "./Desktop/DesktopMenu";
 import Image from "next/image";
-import mds_logo from "../../../public/assets/images//mds_logo.webp";
-
+import logo from "../../../public/assets/images//mds_logo.webp";
 import constants from "@/utils/constants/constans.json";
 import menuItems from "@/utils/constants/menuItems.json";
 
@@ -22,13 +21,14 @@ const Navbar = () => {
         >
           <a
             href="/"
-            title={`Navigate to ${menuItems[0].title} page | ${constants.aria_label}`}
-            aria-label={`Navigate to ${menuItems[0].title} page | ${constants.aria_label}`}
+            title={`Navigate back to Home Page | ${constants.aria_label}`}
+            aria-label={`Navigate back to Home Page | ${constants.aria_label}`}
           >
             <div>
               <Image
-                src={mds_logo}
-                alt={`${constants.aria_label} | MDS Logo`}
+                src={logo}
+                title={`Footer Logo | ${constants.aria_label} | Navigate to Home`}
+                alt={`Footer Logo | ${constants.aria_label} | Navigate to Home`}
                 className="object-contain"
               />
             </div>
