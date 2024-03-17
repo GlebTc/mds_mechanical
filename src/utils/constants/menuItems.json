@@ -10,7 +10,7 @@
   },
   {
     "title": "Commercial Services",
-    "subMenuArray": [
+    "TO_ADD_subMenuArray": [
       {
         "path": "/commercial-services/boiler",
         "name": "boiler",
@@ -46,7 +46,7 @@
   },
   {
     "title": "Residential Services",
-    "subMenuArray": [
+    "TO_ADD_subMenuArray": [
       {
         "path": "/residential-services/air-conditioning",
         "name": "air-conditioning",

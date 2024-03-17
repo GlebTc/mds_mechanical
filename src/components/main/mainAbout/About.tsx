@@ -13,8 +13,8 @@ const About = () => {
         <h2 className="text-2xl font-bold border-b-4 border-red-600 w-full md:w-[25%] mb-12 mt-2">
           About Us
         </h2>
-        <div className="md:flex gap-8">
-          <div className="ABOUT_IMAGES_CONTAINER flex flex-col justify-start md:w-[55%] lg:w-[40%]">
+        <div className="ABOUT_IMAGES_AND_CONTENT_CONTAINER md:flex justify-center gap-8">
+          <div className="ABOUT_IMAGES_CONTAINER flex flex-col justify-start">
             <Image
               src={main_about}
               alt="Main About"
@@ -28,7 +28,7 @@ const About = () => {
               className="rounded-md shadow-md shadow-gray-500 hidden md:block"
             />
           </div>
-          <div className="md:w-[45%]">
+          <div className="md:max-w-[50%] lg:max-w-[60%]">
             <p className="mb-4 lg:text-md xl:text-lg">
               {about.main_about_us_text.first_paragraph}
             </p>
