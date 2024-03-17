@@ -28,7 +28,7 @@ const ScrollNavigationButtons = () => {
         href={`tel:${constants.phone}`}
         className={`${
           isFixed ? "fixed" : "hidden"
-        } bottom-16 right-4 bg-red-600/80 text-white p-2 rounded-lg shadow-lg z-50 cursor-pointer hover:bg-red-700 duration-300`}
+        } bottom-16 right-4 bg-red-600/80 text-white p-2 rounded-lg shadow-lg cursor-pointer hover:bg-red-700 duration-300 z-[40]`}
       >
         <FaPhone size={25} />
       </a>
@@ -38,7 +38,7 @@ const ScrollNavigationButtons = () => {
         href={`mailto:${constants.email}`}
         className={`${
           isFixed ? "fixed" : "hidden"
-        } bottom-28 right-4 bg-red-600/80 text-white p-2 rounded-lg shadow-lg z-50 cursor-pointer hover:bg-red-700 duration-300`}
+        } bottom-28 right-4 bg-red-600/80 text-white p-2 rounded-lg shadow-lg cursor-pointer hover:bg-red-700 duration-300 z-[40]`}
       >
         <IoMdMail size={25} />
       </a>
@@ -48,7 +48,7 @@ const ScrollNavigationButtons = () => {
         aria-label={`Return to ${menuItems[0].title} page | ${constants.aria_label}`}
         className={`${
           isFixed ? "fixed" : "hidden"
-        } bottom-4 right-4 bg-red-600/80 text-white p-2 rounded-lg shadow-lg z-50 cursor-pointer hover:bg-red-700 duration-300`}
+        } bottom-4 right-4 bg-red-600/80 text-white p-2 rounded-lg shadow-lg cursor-pointer hover:bg-red-700 duration-300 z-[40]`}
       >
         <FaAnglesUp size={25} />
       </a>
@@ -58,11 +58,10 @@ const ScrollNavigationButtons = () => {
         aria-label={`Return to ${menuItems[0].title} page | ${constants.aria_label}`}
         className={`${
           isFixed ? "hidden" : "fixed md:hidden"
-        } bottom-4 right-4 bg-red-600/80 text-white p-2 rounded-lg shadow-lg z-50 cursor-pointer hover:bg-red-700 duration-300 animate-bounce`}
+        } bottom-4 right-4 bg-red-600/80 text-white p-2 rounded-lg shadow-lg cursor-pointer hover:bg-red-700 duration-300 animate-bounce z-[40]`}
       >
         <FaAngleDown size={25} />
       </a>
-      
     </div>
   );
 };

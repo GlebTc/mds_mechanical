@@ -1,8 +1,8 @@
 import Image from "next/image";
 import main_about from "../../../../public/assets/images/main_about.webp";
 import main_about_two from "../../../../public/assets/images/main_about_two.webp";
-import about from '@/utils/constants/content/about_us.json'
-import constants from '@/utils/constants/constans.json'
+import about from "@/utils/constants/content/about_us.json";
+import constants from "@/utils/constants/constans.json";
 import Link from "next/link";
 import NextSectionScrollButton from "@/components/reusable/NextSectionScrollButton";
 
@@ -38,7 +38,7 @@ const About = () => {
             <div className="flex justify-center mt-4">
               <Link href="/about-us">
                 <button
-                  className="z-[30] bg-red-600 mb-16 px-4 py-2 rounded-md font-bold text-white text-xl hover:bg-red-700 duration-300"
+                  className="bg-red-600 mb-16 px-4 py-2 rounded-md font-bold text-white text-xl hover:bg-red-700 duration-300"
                   aria-label={`${constants.aria_label} | Learn More | About Us`}
                   title="Learn More | About Us"
                 >
