@@ -24,7 +24,7 @@ const ContactForm = () => {
       ...prevData,
       [name]: value,
     }));
-    console.log(formData);
+    // console.log(formData);
   };
 
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
@@ -103,6 +103,7 @@ const ContactForm = () => {
             type="email"
             id="email"
             name="email"
+            required
             onChange={handleChange}
           />
         </div>

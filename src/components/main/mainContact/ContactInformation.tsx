@@ -22,20 +22,35 @@ const ContactInformation = () => {
         </a>
       </div>
       <div className="CONTACT_CONTAINER flex flex-col gap-2">
-        <div className="flex justify-center items-center gap-2">
+        <a
+          className="flex justify-center items-center gap-2"
+          href={`tel:${constants.phone}`}
+          title={`Phone Contact | ${constants.phone} | ${constants.aria_label}`}
+          aria-label={`Phone Contact | ${constants.phone} | ${constants.aria_label}`}
+        >
           <FaPhone />
           <span> {constants.phone}</span>
-        </div>
+        </a>
 
-        <div className="flex justify-center items-center gap-2">
+        <a
+          className="flex justify-center items-center gap-2"
+          href={`mailto:${constants.email}`}
+          title={`Email Contact | ${constants.email} | ${constants.aria_label}`}
+          aria-label={`Email Contact | ${constants.email} | ${constants.aria_label}`}
+        >
           <IoMdMail />
           <span> {constants.email}</span>
-        </div>
-        <div className="NAVBAR_EMERGENCY_CONTACT_CONTAINER flex justify-center items-center gap-2 bg-red-600 font-bold uppercase px-2 rounded-md animate-pulse text-center w-fit mx-auto mt-2">
+        </a>
+        <a
+          className="NAVBAR_EMERGENCY_CONTACT_CONTAINER flex justify-center items-center gap-2 bg-red-600 font-bold uppercase px-2 rounded-md animate-pulse text-center w-fit mx-auto mt-2"
+          href={`tel:${constants.emergency_phone}`}
+          title={`Emergency | 24/7 | Phone Contact | ${constants.emergency_phone} | ${constants.aria_label}`}
+          aria-label={`Emergency | 24/7 | Phone Contact | ${constants.emergency_phone} | ${constants.aria_label}`}
+        >
           <p>
             emergency 24/7 <span> {constants.emergency_phone}</span>
           </p>
-        </div>
+        </a>
       </div>
       <div className="CONTACT_US_IMAGE_CONTAINER max-w-[70%] mx-auto mt-8 text-center">
         <p className="bg-yellow-300 p-8">Would be nice to have image here</p>
