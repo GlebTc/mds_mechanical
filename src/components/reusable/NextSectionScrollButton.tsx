@@ -10,7 +10,7 @@ const NextSectionScrollButton = ({
   section: string;
 }) => {
   return (
-    <Link
+    <a
       href={`#${section}`}
       title={`Navigate to ${title} section | ${constants.aria_label}`}
       aria-label={`Navigate to ${title} section | ${constants.aria_label}`}
@@ -18,7 +18,7 @@ const NextSectionScrollButton = ({
     >
       <FaChevronCircleDown size={25} />
       {title}
-    </Link>
+    </a>
   );
 };
 
