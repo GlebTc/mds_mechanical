@@ -36,7 +36,7 @@ const About = () => {
             <p className="lg:text-md xl:text-lg">
               {about.main_about_us_text.second_paragraph}
             </p>
-            <div className="flex justify-center mt-4">
+            <div className="flex justify-center my-4">
               <LearnMore section="About Us" href="about-us" />
             </div>
           </div>
