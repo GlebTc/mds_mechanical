@@ -15,15 +15,7 @@ const Main = () => {
       <HeroOverlay />
       <HeroText />
       <div className="hidden md:block relative max-w-[1200px] mx-auto">
-      <a
-      href={`#about`}
-      title={`Navigate to About Us section`}
-      aria-label={`Navigate to About Us section`}
-      className={`bg-red-600/80 px-4 py-1 text-white flex justify-center gap-2 items-center rounded-md animate-bounce absolute bottom-4 left-4 font-bold text-lg z-[20]`}
-    >
-      <FaChevronCircleDown size={25} />
-      <p>About Us</p>
-    </a>
+        <NextSectionScrollButton title="About" section="about" />
       </div>
     </div>
   );
