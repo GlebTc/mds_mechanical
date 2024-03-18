@@ -15,7 +15,7 @@ const Main = () => {
       <HeroOverlay />
       <HeroText />
       <div className="hidden md:block relative max-w-[1200px] mx-auto">
-      <Link
+      <a
       href={`#about`}
       title={`Navigate to About Us section`}
       aria-label={`Navigate to About Us section`}
@@ -23,7 +23,7 @@ const Main = () => {
     >
       <FaChevronCircleDown size={25} />
       <p>About Us</p>
-    </Link>
+    </a>
       </div>
     </div>
   );
