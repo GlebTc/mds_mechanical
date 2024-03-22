@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 const ResidentialServices = () => {
   return (
-    <div className='SERVICES_MAIN_CONTAINER relative h-full w-full mx-auto flex flex-col justify-between bg-gray-200 pt-[var(--emerg-bar-h-mobile)] md:pt-[var(--emerg-bar-h-desktop)]'>
+    <div className='SERVICES_MAIN_CONTAINER relative h-full w-full mx-auto flex flex-col justify-between bg-gray-200 '>
       <div className='max-w-[1200px] mx-auto p-4 mb-8'>
         <h2 className='text-2xl font-bold border-b-4 border-red-600 w-full md:w-[25%] mb-12'>
           Who We Serve
