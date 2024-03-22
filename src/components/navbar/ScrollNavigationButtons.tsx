@@ -3,7 +3,6 @@ import { useState, useEffect } from "react";
 import { FaAnglesUp, FaAngleDown } from "react-icons/fa6";
 import { FaPhone } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
-import menuItems from "@/utils/constants/menuItems.json";
 import constants from "@/utils/constants/constans.json";
 
 const ScrollNavigationButtons = () => {
@@ -28,7 +27,7 @@ const ScrollNavigationButtons = () => {
         aria-label={`Phone Contact | ${constants.phone} | ${constants.aria_label}`}
         className={`${
           isFixed ? "fixed" : "hidden"
-        } bottom-16 right-4 bg-red-600/80 text-white p-2 rounded-lg shadow-lg cursor-pointer hover:bg-red-700 duration-300 z-[40]`}
+        } bottom-16 right-4 bg-red-600/80 text-white p-2 rounded-lg shadow-lg cursor-pointer hover:bg-red-700 duration-300 z-[15]`}
       >
         <FaPhone size={25} />
       </a>
@@ -38,7 +37,7 @@ const ScrollNavigationButtons = () => {
         aria-label={`Email Contact | ${constants.email} | ${constants.aria_label}`}
         className={`${
           isFixed ? "fixed" : "hidden"
-        } bottom-28 right-4 bg-red-600/80 text-white p-2 rounded-lg shadow-lg cursor-pointer hover:bg-red-700 duration-300 z-[40]`}
+        } bottom-28 right-4 bg-red-600/80 text-white p-2 rounded-lg shadow-lg cursor-pointer hover:bg-red-700 duration-300 z-[15]`}
       >
         <IoMdMail size={25} />
       </a>
@@ -48,7 +47,7 @@ const ScrollNavigationButtons = () => {
         aria-label={`Navigate back to Home Page | ${constants.aria_label}`}
         className={`${
           isFixed ? "fixed" : "hidden"
-        } bottom-4 right-4 bg-red-600/80 text-white p-2 rounded-lg shadow-lg cursor-pointer hover:bg-red-700 duration-300 z-[40]`}
+        } bottom-4 right-4 bg-red-600/80 text-white p-2 rounded-lg shadow-lg cursor-pointer hover:bg-red-700 duration-300 z-[15]`}
       >
         <FaAnglesUp size={25} />
       </a>
@@ -58,7 +57,7 @@ const ScrollNavigationButtons = () => {
         aria-label={`Navigate to Contact Us section | ${constants.aria_label}`}
         className={`${
           isFixed ? "hidden" : "fixed md:hidden"
-        } bottom-4 right-4 bg-red-600/80 text-white p-2 rounded-lg shadow-lg cursor-pointer hover:bg-red-700 duration-300 animate-bounce z-[40]`}
+        } bottom-4 right-4 bg-red-600/80 text-white p-2 rounded-lg shadow-lg cursor-pointer hover:bg-red-700 duration-300 animate-bounce z-[15]`}
       >
         <FaAngleDown size={25} />
       </a>
