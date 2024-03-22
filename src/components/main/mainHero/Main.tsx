@@ -1,8 +1,6 @@
 import HeroImage from "./HeroImage";
 import HeroText from "./HeroText";
 import HeroOverlay from "./HeroOverlay";
-import Link from "next/link";
-import { FaChevronCircleDown } from "react-icons/fa";
 import NextSectionScrollButton from "@/components/reusable/NextSectionScrollButton";
 
 const Main = () => {
