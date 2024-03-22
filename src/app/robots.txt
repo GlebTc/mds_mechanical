@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+Disallow: /private/
+
+Sitemap: `https://mds-mechanical.netlify.app/sitemap.xml`
