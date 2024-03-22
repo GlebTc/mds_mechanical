@@ -50,6 +50,7 @@ const NavMobileMenu = ({
                 width={180}
                 height={100}
                 quality={20}
+                priority
               />
             </a>
           </div>
