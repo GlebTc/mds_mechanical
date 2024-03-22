@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "../../../public/assets/images/mds_logo.webp";
+import logo from "../../../public/assets/images/mds_logo_transparent_white.webp";
 import constants from "@/utils/constants/constans.json";
 import { IoMdMail } from "react-icons/io";
 import { FaPhone } from "react-icons/fa";
