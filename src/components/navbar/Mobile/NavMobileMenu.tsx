@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { AiOutlineClose } from 'react-icons/ai';
 import Image from 'next/image';
 import logo from '../../../../public/assets/images/mds_logo_transparent_white.webp';
+import orac_logo from '../../../../public/assets/images/orac_logo_transparent.webp';
 import menuItems from '@/utils/constants/menuItems.json';
 import constants from '@/utils/constants/constans.json';
 import { usePathname } from 'next/navigation';
@@ -37,7 +38,22 @@ const NavMobileMenu = ({
               onClick={handleMobileMenu}
             />
           </div>
-          <div className='LOGO_IMAGE_AND_NAME_CONTAINER flex flex-wrap justify-center items-center px-4'>
+          <div className='MOBILE_NAV_LOGO_CONTAINER flex justify-start w-full items-center px-4'>
+            <a
+              href="https://orac.ca/"
+              title={`Navigate to ORAC Home Page | ${constants.aria_label}`} 
+              aria-label={`Navigate to ORAC Home Page | ${constants.aria_label}`}
+            >
+              <Image
+                src={orac_logo}
+                title={`ORAC Logo | ${constants.aria_label} | Navigate to Home`}
+                alt={`ORAC Logo | ${constants.aria_label} | Navigate to Home`}
+                width={70}
+                height={70}
+                quality={20}
+                priority
+              />
+            </a>
             <a
               href='/'
               title={`Navigate back to Home Page | ${constants.aria_label}`}
