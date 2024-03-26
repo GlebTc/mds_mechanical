@@ -20,7 +20,7 @@ const Navbar = () => {
         <div
           className={`NAVBAR_LOGO_CONTAINER w-full md:w-fit flex justify-center md:justify-start`}
         >
-          <a
+          {/* <a
             href='https://orac.ca/'
             title={`Navigate to ORAC Home Page | ${constants.aria_label}`}
             aria-label={`Navigate to ORAC Home Page | ${constants.aria_label}`}
@@ -35,7 +35,7 @@ const Navbar = () => {
               quality={20}
               priority
             />
-          </a>
+          </a> */}
           <a
             href='/'
             title={`Navigate back to Home Page | ${constants.aria_label}`}
@@ -52,7 +52,7 @@ const Navbar = () => {
               />
             </div>
           </a>
-          <a
+          {/* <a
             href='https://www.tssa.org/'
             title={`Navigate to TSSA Home Page | ${constants.aria_label}`}
             aria-label={`Navigate to TSSA Home Page | ${constants.aria_label}`}
@@ -67,7 +67,7 @@ const Navbar = () => {
               quality={20}
               priority
             />
-          </a>
+          </a> */}
         </div>
         <nav className={`NAVBAR_DESKTOP_MENU_CONTAINER hidden md:block`}>
           <DesktopMenu />

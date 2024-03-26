@@ -39,7 +39,7 @@ const NavMobileMenu = ({
             />
           </div>
           <div className='MOBILE_NAV_LOGO_CONTAINER flex justify-start w-full items-center px-4'>
-            <a
+            {/* <a
               href="https://orac.ca/"
               title={`Navigate to ORAC Home Page | ${constants.aria_label}`} 
               aria-label={`Navigate to ORAC Home Page | ${constants.aria_label}`}
@@ -53,7 +53,7 @@ const NavMobileMenu = ({
                 quality={20}
                 priority
               />
-            </a>
+            </a> */}
             <a
               href='/'
               title={`Navigate back to Home Page | ${constants.aria_label}`}
