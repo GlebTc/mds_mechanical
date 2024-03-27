@@ -14,7 +14,7 @@ Google: mdsmechanicain@gmail.com
 Pass: MDSMECH#2015
 
 Remove Plumbing from everywhere
-Focus on Restorant Services
+Focus on Restaurant Services
 
 Services (Residential)
  - Furnaces
