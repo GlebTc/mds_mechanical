@@ -11,7 +11,7 @@ const Contact = () => {
           title={`Navigate to Contact page | ${constants.aria_label}`}
           aria-label={`Navigate to Contact page | ${constants.aria_label}`}
         >
-          <div className='ABOUT_US_ICON_AND_TITLE_CONTAINER flex justify-start items-center gap-4 border-b-4 border-red-600 w-fit md:min-w-[50%] p-4 mb-8'>
+          <div className='ABOUT_US_ICON_AND_TITLE_CONTAINER flex justify-start items-center gap-4 border-b-4 border-red-600 w-full md:min-w-[50%] p-4 mb-8'>
             <p className='page_section_headings'>Contact Us</p>
           </div>
         </a>
