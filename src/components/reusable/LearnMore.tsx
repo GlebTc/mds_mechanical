@@ -1,16 +1,18 @@
-import Link from "next/link";
-import constants from "@/utils/constants/constans.json";
+import Link from 'next/link';
+import constants from '@/utils/constants/constans.json';
 
-const LearnMore = ({ section, href }: { section: string, href: string }) => {
+const LearnMore = ({ section, href }: { section: string; href: string }) => {
   return (
-    <Link
-      className="req-button z-[15] bg-red-600 px-2 py-1 rounded-md font-bold text-white text-xl hover:bg-red-700 duration-300"
+    <a
       href={href}
       title={`Learn More | Navigate to ${section} page | ${constants.aria_label}`}
       aria-label={`Learn More | Navigate to ${section} page | ${constants.aria_label}`}
     >
-      More {section}
-    </Link>
+      <p className='bg-red-600 req-button z-[15] px-2 py-1 rounded-md font-bold text-white text-md hover:bg-red-700 duration-300 text-center w-fit'>
+        {' '}
+        More {section}
+      </p>
+    </a>
   );
 };
 
