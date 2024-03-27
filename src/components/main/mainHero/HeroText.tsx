@@ -72,7 +72,7 @@ const HeroText = () => {
         {main_hero_text.map((item, index) => (
           <div
             key={index}
-            className={`HERO_MESSAGES_CONTAINER absolute top-0 left-0 w-full p-12 h-[100%] flex flex-col justify-center transition-opacity duration-500 ${
+            className={`HERO_MESSAGES_CONTAINER absolute top-0 left-0 w-full h-[100%] flex flex-col justify-center transition-opacity duration-500 ${
               index === currentIndex
                 ? "opacity-100"
                 : "opacity-0 pointer-events-none"
@@ -83,7 +83,7 @@ const HeroText = () => {
                 index === currentIndex ? "opacity-100" : "opacity-0"
               }`}
             >
-              <h1 className="text-white text-3xl sm:text-4xl md:text-5xl font-bold">
+              <h1 className="text-white text-3xl sm:text-4xl md:text-5xl font-bold px-4">
                 {item.title}
               </h1>
             </div>
@@ -92,7 +92,7 @@ const HeroText = () => {
                 index === currentIndex ? "opacity-100" : "opacity-0"
               }`}
             >
-              <p className="text-red-300 text-xl sm:text-3xl md:text-4xl font-bold">
+              <p className="text-red-300 text-xl sm:text-3xl md:text-4xl font-bold px-12 lg:px-28">
                 {item.text}
               </p>
             </div>
@@ -100,7 +100,7 @@ const HeroText = () => {
         ))}
       </div>
       <button
-        className="req-button z-[15] bg-red-600 px-2 py-1 rounded-md font-bold text-white text-xl hover:bg-red-700 duration-300 md:mb-20"
+        className="req-button z-[15] bg-red-600 px-2 py-1 rounded-md font-bold text-white text-xl hover:bg-red-700 duration-300 md:mb-16"
         aria-label={`${constants.aria_label} | Request a Quote`}
         title="Request a Quote"
       >
