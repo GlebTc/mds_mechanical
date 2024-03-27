@@ -63,5 +63,52 @@
         "content": "Our in-house sheet metal fabrication services allow us to create custom solutions for HVAC ductwork, flashing, gutters, and more. We use high-quality materials and precision craftsmanship to ensure durable and functional sheet metal products."
       }
     ]
-  }
+  },
+  "commercial_services_text": {
+    "title": "Commercial Services",
+    "commercial_content_array": [
+      {
+        "title": "Preventative Maintenance",
+        "section_id": "preventative-maintenance",
+        "href": "/commercial-services#preventative-maintenance",
+        "content": "Our preventative maintenance services are designed to keep your HVAC systems running smoothly and efficiently. We offer scheduled inspections, cleaning, and tune-ups to identify and address potential issues before they escalate, saving you time and money in the long run."
+      },
+      {
+        "title": "HVAC",
+        "section_id": "hvac",
+        "href": "/commercial-services#hvac",
+        "content": "Our HVAC services cover a wide range of heating, ventilation, and air conditioning needs for commercial properties. From system installations and upgrades to repairs and maintenance, we ensure optimal performance and comfort for your workspace."
+      },
+      {
+        "title": "Refrigeration",
+        "section_id": "refrigeration",
+        "href": "/commercial-services#refrigeration",
+        "content": "Keep your perishable goods fresh and safe with our expert refrigeration services. We install, repair, and maintain commercial refrigeration systems, including walk-in coolers, freezers, refrigerated display cases, and more, to meet your business's refrigeration needs."
+      },
+      {
+        "title": "Sheet Metal",
+        "section_id": "sheet-metal",
+        "href": "/commercial-services#sheet-metal",
+        "content": "Our sheet metal services encompass custom fabrication, installation, and repair of HVAC ductwork, ventilation systems, and other sheet metal components for commercial buildings. We prioritize quality craftsmanship and precision to deliver durable and efficient solutions."
+      },
+      {
+        "title": "Boilers",
+        "section_id": "boilers",
+        "href": "/commercial-services#boilers",
+        "content": "Ensure reliable heating for your commercial property with our boiler services. We handle boiler installations, repairs, and maintenance to keep your heating system running efficiently and effectively, providing a comfortable environment for your employees and customers."
+      },
+      {
+        "title": "Air Makeup Units",
+        "section_id": "air-makeup-units",
+        "href": "/commercial-services#air-makeup-units",
+        "content": "Improve indoor air quality and ventilation with our air makeup unit installations and services. We design and install air makeup units to replenish indoor air in commercial spaces, ensuring proper ventilation and a healthier environment for occupants."
+      },
+      {
+        "title": "Exhaust Systems",
+        "section_id": "exhaust-systems",
+        "href": "/commercial-services#exhaust-systems",
+        "content": "Enhance air quality and remove pollutants from your commercial space with our exhaust system solutions. We install, repair, and maintain exhaust systems, including kitchen hoods, ventilation fans, and exhaust ductwork, to create a safe and comfortable working environment."
+      }
+    ]
+  }  
 }

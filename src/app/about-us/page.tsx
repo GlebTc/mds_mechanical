@@ -13,11 +13,18 @@ export const metadata: Metadata = {
 
 const AboutUs = () => {
   return (
-    <div className='ABOUT_MAIN_CONTAINER relative h-full px-4 w-full max-w-[1200px] mx-auto flex flex-col justify-between'>
-      <div className='max-w-[1200px] mx-auto relative'>
-        <h2 className='text-2xl font-bold border-b-4 border-red-600 w-full md:w-[25%] mb-12 mt-2'>
-          About Us
-        </h2>
+    <div className='ABOUT_US_MAIN_CONTAINER relative h-full w-full mx-auto flex flex-col justify-between bg-gray-200 '>
+      <div className='ABOUT_US_WRAPPER_CONTAINER max-w-[1200px] mx-auto px-4 mb-8'>
+        <div className='ABOUT_US_ICON_AND_TITLE_CONTAINER flex justify-start items-center gap-4 border-b-4 border-red-600 w-fit md:min-w-[50%] p-4 mb-8'>
+          <Image
+            src='https://www.svgrepo.com/show/42439/about-us.svg'
+            alt={`${constants.aria_label} | Residentail Services Icon Image`}
+            title={`${constants.aria_label} | Residentail Services Icon Image`}
+            height={40}
+            width={40}
+          />
+          <p className='text-xl sm:text-2xl md:text-3xl font-bold'>About Us</p>
+        </div>
         <div className='ABOUT_IMAGES_AND_CONTENT_CONTAINER md:flex justify-center gap-8 mb-8'>
           <div className='ABOUT_IMAGES_CONTAINER flex flex-col justify-start'>
             <Image

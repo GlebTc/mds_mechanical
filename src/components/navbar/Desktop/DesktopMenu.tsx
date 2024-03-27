@@ -11,7 +11,7 @@ const DesktopMenu = () => {
 
   const pathname = usePathname();
   return (
-    <ul className="flex gap-[1px] lg:gap-[10px] xl:gap-[20px]">
+    <ul className="DESKTOP_MENU_CONTAINER flex gap-[1px] lg:gap-[10px] xl:gap-[20px] lg:text-xl lg:font-bold">
       {menuItems.map((item: any, index: number) => {
         if (item.subMenuArray) {
           return (
