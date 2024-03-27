@@ -22,7 +22,7 @@ const ResidentialServices = () => {
             height={40}
             width={40}
           />
-          <p className='text-xl sm:text-2xl md:text-3xl font-bold'>
+          <p className='page_section_headings'>
             {services.main_services_text.residential.title}
           </p>
         </div>

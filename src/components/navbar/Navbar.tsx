@@ -40,7 +40,7 @@ const Navbar = () => {
             href='/'
             title={`Navigate back to Home Page | ${constants.aria_label}`}
             aria-label={`Navigate back to Home Page | ${constants.aria_label}`}
-            className='w-[180px] flex justify-center items-center'
+            className='w-[180px] h-auto flex justify-center items-center'
           >
             <div>
               <Image

@@ -23,7 +23,7 @@ const AboutUs = () => {
             height={40}
             width={40}
           />
-          <p className='text-xl sm:text-2xl md:text-3xl font-bold'>About Us</p>
+          <p className='page_section_headings'>About Us</p>
         </div>
         <div className='ABOUT_IMAGES_AND_CONTENT_CONTAINER md:flex justify-center gap-8 mb-8'>
           <div className='ABOUT_IMAGES_CONTAINER flex flex-col justify-start'>

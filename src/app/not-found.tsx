@@ -8,7 +8,7 @@ export default function NotFound() {
       </h2>
       <p>
         Please check the URL and if you still experience error, please email our
-        developer at
+        developer at {" "}
         <a
           href="mailto:webdevelopmenthamilton@gmail.com"
           title={`Email Web Developer | webdevelopmenthamilton@gmail.com`}
