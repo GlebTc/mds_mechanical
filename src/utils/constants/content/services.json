@@ -10,5 +10,58 @@
       "first_paragraph": "MDS Mechanical is your trusted partner for a wide range of commercial HVAC services. From boiler room retrofits to commercial water heater and storage tank replacements, hydronic in-floor heating, snow melt systems, and radiant tube heater installations, we have the expertise and experience to handle all your commercial HVAC needs. Our commitment to quality and customer satisfaction sets us apart.",
       "second_paragraph": "When it comes to industrial and commercial services, compliance with building regulations and equipment guidelines is paramount. Our meticulous adherence to industry standards ensures that your systems are not only efficient and reliable but also compliant with all relevant codes and regulations. With MDS Mechanical, you can rest assured that your commercial HVAC needs are in capable and reliable hands."
     }
+  },
+  "residential_services_text": {
+    "title": "Residential Services",
+    "residential_content_array": [
+      {
+        "title": "Furnaces",
+        "section_id": "furnaces",
+        "href": "/residential-services#furnaces",
+        "content": "We specialize in installing, repairing, and maintaining a wide range of furnaces, ensuring that your home or business stays warm and comfortable throughout the year. Our team of certified technicians is equipped to handle all types of furnace systems, from traditional gas and oil furnaces to high-efficiency models."
+      },
+      {
+        "title": "Air Conditioners",
+        "section_id": "air-conditioners",
+        "href": "/residential-services#air-conditioners",
+        "content": "Beat the heat with our expert air conditioning services. Whether you need a new AC unit installed, repairs for an existing system, or regular maintenance to keep your cooling system running efficiently, we have you covered. We work with leading brands to provide reliable and energy-efficient cooling solutions."
+      },
+      {
+        "title": "Water Heaters (Tankless)",
+        "section_id": "water-heaters",
+        "href": "/residential-services#water-heaters",
+        "content": "Enjoy endless hot water and energy savings with our tankless water heater installations. Our team will help you choose the right size and type of tankless water heater for your home or business, ensuring optimal performance and comfort."
+      },
+      {
+        "title": "Boilers",
+        "section_id": "boilers",
+        "href": "/residential-services#boilers",
+        "content": "For efficient and reliable heating, our boiler services are second to none. We install, repair, and maintain all types of boilers, including steam boilers, hot water boilers, and combination boilers, ensuring consistent warmth and comfort."
+      },
+      {
+        "title": "Custom Hood Ranges",
+        "section_id": "custom-hood-ranges",
+        "href": "/residential-services#custom-hood-ranges",
+        "content": "Create a stylish and functional kitchen with our custom hood range solutions. We design and install custom hood ranges that not only enhance the aesthetics of your kitchen but also improve air quality by removing smoke, odors, and grease."
+      },
+      {
+        "title": "Exhaust Fans",
+        "section_id": "exhaust-fans",
+        "href": "/residential-services#exhaust-fans",
+        "content": "Improve ventilation and air quality in your home or commercial space with our exhaust fan installations. Our exhaust fans are designed to effectively remove stale air, moisture, and pollutants, creating a healthier indoor environment."
+      },
+      {
+        "title": "Radiant/Infloor Heating",
+        "section_id": "infloor-heating",
+        "href": "/residential-services#infloor-heating",
+        "content": "Experience the ultimate in comfort with our radiant and infloor heating systems. We design and install radiant heating solutions that distribute heat evenly throughout your space, eliminating cold spots and reducing energy costs."
+      },
+      {
+        "title": "Custom Sheet Metal",
+        "section_id": "custom-sheet-metal",
+        "href": "/residential-services#custom-sheet-metal",
+        "content": "Our in-house sheet metal fabrication services allow us to create custom solutions for HVAC ductwork, flashing, gutters, and more. We use high-quality materials and precision craftsmanship to ensure durable and functional sheet metal products."
+      }
+    ]
   }
 }

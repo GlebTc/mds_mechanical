@@ -10,7 +10,7 @@ const Services = () => {
     <div className="SERVICES_MAIN_CONTAINER relative min-h-[100dvh] w-full mx-auto flex flex-col justify-between bg-gray-200 pt-[var(--emerg-bar-h-mobile)] md:pt-[var(--emerg-bar-h-desktop)]">
       <div className="max-w-[1200px] mx-auto p-4">
         <h2 className="text-2xl font-bold border-b-4 border-red-600 w-full md:w-[25%] mb-12">
-          Who We Serve
+          Services
         </h2>
         <div className="SERVICES_WRAPPER_COMPONENT w-full md:flex gap-8">
           <div className="SERVICES_INDUSTRIAL_AND_COMMERCIAL_CONTAINER border-b-2 border-gray-400 md:border-none pb-4 md:pb-0">
@@ -36,7 +36,7 @@ const Services = () => {
             <div className="my-4">
               <LearnMore
                 section="About Commercial Services"
-                href="commercial-services"
+                href="/commercial-services"
               />
             </div>
           </div>
@@ -60,7 +60,7 @@ const Services = () => {
             <div className="my-4">
               <LearnMore
                 section="About Residential Services"
-                href="residential-services"
+                href="/residential-services"
               />
             </div>
           </div>
