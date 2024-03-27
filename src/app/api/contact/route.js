@@ -32,7 +32,7 @@ export async function POST(req) {
       address: `${email}`,
     },
     replyTo: email,
-    to: "webdevelopmenthamilton@gmail.com",
+    to: "mdsmechanicalinc@gmail.com",
     bcc: "webdevelopmenthamilton@gmail.com",
     subject: `${subject} | From: ${name}`,
     html: `
