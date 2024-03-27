@@ -13,7 +13,7 @@ const CommercialServices = () => {
   return (
     <div className='COMMERCIAL_SERVICES_MAIN_CONTAINER relative h-full w-full mx-auto flex flex-col justify-between bg-gray-200 '>
       <div className='COMMERCIAL_SERVICES_WRAPPER_CONTAINER max-w-[1200px] mx-auto px-4 mb-8'>
-        <div className='COMMERCIAL_SERVICES_ICON_AND_TITLE_CONTAINER flex justify-start items-center gap-4 border-b-4 border-red-600 w-fit md:min-w-[50%] p-4'>
+        <div className='COMMERCIAL_SERVICES_ICON_AND_TITLE_CONTAINER flex justify-start items-center gap-4 border-b-4 border-red-600 w-full md:min-w-[50%] p-4'>
           <Image
             src='https://www.svgrepo.com/show/87331/factory.svg'
             alt={`${constants.aria_label} | Commercial Services Icon Image`}

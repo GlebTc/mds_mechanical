@@ -14,7 +14,7 @@ const ResidentialServices = () => {
   return (
     <div className='RESIDENTIAL_SERVICES_MAIN_CONTAINER relative h-full w-full mx-auto flex flex-col justify-between bg-gray-200 '>
       <div className='RESIDENTIAL_SERVICES_WRAPPER_CONTAINER max-w-[1200px] mx-auto px-4 mb-8'>
-        <div className='RESIDENTIAL_SERVICES_ICON_AND_TITLE_CONTAINER flex justify-start items-center gap-4 border-b-4 border-red-600 w-fit md:min-w-[50%] p-4'>
+        <div className='RESIDENTIAL_SERVICES_ICON_AND_TITLE_CONTAINER flex justify-start items-center gap-4 border-b-4 border-red-600 w-full md:min-w-[50%] p-4'>
           <Image
             src='https://www.svgrepo.com/show/86988/home.svg'
             alt={`${constants.aria_label} | Residentail Services Icon Image`}
