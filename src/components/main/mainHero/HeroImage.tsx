@@ -10,6 +10,7 @@ const HeroImage = () => {
       title={`Main Page Hero Background Image | ${constants.aria_label}`}
       fill
       className="object-cover center"
+      placeholder="blur"
       priority
       quality={20}
     />
