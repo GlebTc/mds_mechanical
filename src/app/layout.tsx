@@ -22,7 +22,7 @@ export const metadata: Metadata = {
       "HVAC | Heating | Gas | Air Conditioning | Plumbing | Electrical | 24/7 Emergency Services",
   },
   keywords:
-    "HVAC, Heating, Gas, Air Conditioning, Plumbing, Electrical, 24/7 Emergency Services",
+    "Hamilton, Niagara Region, Ontario, HVAC, Heating, Gas, Air Conditioning, Plumbing, Electrical, 24/7 Emergency Services",
 };
 
 export default function RootLayout({
