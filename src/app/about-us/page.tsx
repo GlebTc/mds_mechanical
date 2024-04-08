@@ -3,8 +3,6 @@ import Image from 'next/image';
 import main_about from '../../../public/assets/images/main_about.webp';
 import main_about_two from '../../../public/assets/images/main_about_two.webp';
 import about from '@/utils/constants/content/about_us.json';
-import NextSectionScrollButton from '@/components/reusable/NextSectionScrollButton';
-import LearnMore from '@/components/reusable/LearnMore';
 import constants from '@/utils/constants/constans.json';
 
 export const metadata: Metadata = {
