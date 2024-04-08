@@ -7,7 +7,7 @@ import Footer from "@/components/footer/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("http://localhost:3000"),
+  metadataBase: new URL("https://www.mdsmechanicalinc.ca/"),
   title: {
     default:
       "HVAC | Heating | Gas | Air Conditioning | Plumbing | Electrical | 24/7 Emergency Services",
