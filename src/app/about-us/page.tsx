@@ -41,10 +41,10 @@ const AboutUs = () => {
           </div>
           <div className='md:max-w-[50%] lg:max-w-[60%]'>
             <p className='mb-4 lg:text-md xl:text-lg'>
-              {about.main_about_us_text.first_paragraph}
+              {about.about_us_page_text.first_paragraph}
             </p>
             <p className='lg:text-md xl:text-lg'>
-              {about.main_about_us_text.second_paragraph}
+              {about.about_us_page_text.second_paragraph}
             </p>
           </div>
         </div>
