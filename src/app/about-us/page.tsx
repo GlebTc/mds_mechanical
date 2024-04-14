@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import Image from 'next/image';
-import main_about from '../../../public/assets/images/main_about.webp';
+import page_about_one from '../../../public/assets/images/page_about_one.webp';
 import main_about_two from '../../../public/assets/images/main_about_two.webp';
 import about from '@/utils/constants/content/about_us.json';
 import constants from '@/utils/constants/constans.json';
@@ -26,13 +26,13 @@ const AboutUs = () => {
         <div className='ABOUT_IMAGES_AND_CONTENT_CONTAINER md:flex justify-center gap-8 mb-8'>
           <div className='ABOUT_IMAGES_CONTAINER flex flex-col justify-start'>
             <Image
-              src={main_about}
+              src={main_about_two}
               title={`About Page Image| Residential Boiler | ${constants.aria_label}`}
               alt={`About Page Image| Residential Boiler | ${constants.aria_label}`}
               className='rounded-md shadow-md shadow-gray-500 mb-4'
             />
             <Image
-              src={main_about_two}
+              src={page_about_one}
               title={`About Page Image| Commercial and Industrial Air Handling Unit | ${constants.aria_label}`}
               alt={`About Page Image| Commercial and Industrial Air Handling Unit | ${constants.aria_label}`}
               placeholder='blur'
