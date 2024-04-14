@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import constants from '@/utils/constants/constans.json';
 
 const LearnMore = ({ section, href }: { section: string; href: string }) => {
