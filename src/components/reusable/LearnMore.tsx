@@ -6,6 +6,7 @@ const LearnMore = ({ section, href }: { section: string; href: string }) => {
       href={href}
       title={`Learn More | Navigate to ${section} page | ${constants.aria_label}`}
       aria-label={`Learn More | Navigate to ${section} page | ${constants.aria_label}`}
+      rel="canonical"
     >
       <p className='bg-red-600 req-button z-[15] px-2 py-1 rounded-md font-bold text-white text-md hover:bg-red-700 duration-300 text-center w-fit'>
         {' '}
