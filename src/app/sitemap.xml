@@ -6,6 +6,7 @@
     <changefreq>weekly</changefreq>
     <priority>1</priority>
   </url>
+  </urlset>
   <!-- <url>
     <loc>https://www.mdsmechanicalinc.ca/about-us</loc>
     <lastmod>2022-04-13</lastmod>
@@ -32,4 +33,4 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url> -->
-</urlset>
+
