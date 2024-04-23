@@ -26,12 +26,14 @@ const About = () => {
               title={`About Page Image| Commercial and Industrial Air Handling Unit | ${constants.aria_label}`}
               alt={`About Page Image| Commercial and Industrial Air Handling Unit | ${constants.aria_label}`}
               className='hidden md:block max-h-[280px] md:max-h-[400px] lg:max-h-[300px] xl:max-h-[350px] object-cover object-center rounded-md shadow-md shadow-gray-500'
+              quality={20}
             />
             <Image
               src={main_about}
               title={`About Page Image| Commercial and Industrial Air Handling Unit | ${constants.aria_label}`}
               alt={`About Page Image| Commercial and Industrial Air Handling Unit | ${constants.aria_label}`}
               className='max-h-[280px] sm:max-h-[450px] lg:max-h-[300px] xl:max-h-[350px] object-cover sm:object-bottom rounded-md shadow-md shadow-gray-500'
+              quality={20}
             />
           </div>
           <div className='md:max-w-[50%] lg:max-w-[60%]'>

@@ -49,6 +49,7 @@ const Navbar = () => {
                 alt={`Footer Logo | ${constants.aria_label} | Navigate to Home`}
                 className='object-contain'
                 priority
+                quality={20}
               />
             </div>
           </a>
