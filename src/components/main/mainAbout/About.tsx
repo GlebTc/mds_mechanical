@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import main_about from '../../../../public/assets/images/main_about.webp';
 import main_about_two from '../../../../public/assets/images/main_about_two.webp';
+import main_about from '../../../../public/assets/images/main_about.webp';
 import about from '@/utils/constants/content/about_us.json';
 import NextSectionScrollButton from '@/components/reusable/NextSectionScrollButton';
 import LearnMore from '@/components/reusable/LearnMore';
@@ -20,29 +20,28 @@ const About = () => {
           </div>
         </a>
         <div className='ABOUT_IMAGES_AND_CONTENT_CONTAINER md:flex justify-center gap-8'>
-          <div className='ABOUT_IMAGES_CONTAINER flex flex-col justify-start'>
-            <Image
-              src={main_about}
-              title={`About Page Image| Residential Boiler | ${constants.aria_label}`}
-              alt={`About Page Image| Residential Boiler | ${constants.aria_label}`}
-              className='rounded-md shadow-md shadow-gray-500 mb-4'
-            />
+          <div className='ABOUT_IMAGES_CONTAINER flex gap-4 md:flex-col justify-start mb-4'>
             <Image
               src={main_about_two}
               title={`About Page Image| Commercial and Industrial Air Handling Unit | ${constants.aria_label}`}
               alt={`About Page Image| Commercial and Industrial Air Handling Unit | ${constants.aria_label}`}
-              placeholder='blur'
-              className='rounded-md shadow-md shadow-gray-500 hidden md:block'
+              className='hidden md:block max-h-[280px] md:max-h-[400px] lg:max-h-[300px] xl:max-h-[350px] object-cover object-center rounded-md shadow-md shadow-gray-500'
+            />
+            <Image
+              src={main_about}
+              title={`About Page Image| Commercial and Industrial Air Handling Unit | ${constants.aria_label}`}
+              alt={`About Page Image| Commercial and Industrial Air Handling Unit | ${constants.aria_label}`}
+              className='max-h-[280px] sm:max-h-[450px] lg:max-h-[300px] xl:max-h-[350px] object-cover sm:object-bottom rounded-md shadow-md shadow-gray-500'
             />
           </div>
           <div className='md:max-w-[50%] lg:max-w-[60%]'>
-            <p className='mb-4 lg:text-md xl:text-lg'>
+            <p className='mb-4 lg:text-md xl:text-lg text-justify'>
               {about.main_about_us_text.first_paragraph}
             </p>
             <p className='lg:text-md xl:text-lg'>
               {about.main_about_us_text.second_paragraph}
             </p>
-            <div className='flex justify-center my-4'>
+            <div className='flex justify-center my-4 text-justify'>
               <LearnMore
                 section='About Us'
                 href='about-us'
