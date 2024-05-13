@@ -28,12 +28,14 @@ const AboutUs = () => {
           <div className='ABOUT_IMAGES_CONTAINER flex flex-col justify-start'>
             <Image
               src={main_about_two}
+              priority
               title={`About Page Image| Residential Boiler | ${constants.aria_label}`}
               alt={`About Page Image| Residential Boiler | ${constants.aria_label}`}
               className='rounded-md shadow-md shadow-gray-500 mb-4 max-h-[280px] md:max-h-[400px] lg:max-h-[300px] xl:max-h-[350px] object-cover object-center hidden md:block'
             />
             <Image
               src={page_about_one}
+              priority
               title={`About Page Image| Commercial and Industrial Air Handling Unit | ${constants.aria_label}`}
               alt={`About Page Image| Commercial and Industrial Air Handling Unit | ${constants.aria_label}`}
               placeholder='blur'

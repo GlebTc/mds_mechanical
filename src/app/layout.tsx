@@ -10,19 +10,19 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://www.mdsmechanicalinc.ca/"),
   title: {
     default:
-      "HVAC | Heating | Gas | Air Conditioning | Plumbing | Electrical | 24/7 Emergency Services",
+      "HVAC | Heating | Gas | Air Conditioning | Electrical | 24/7 Emergency Services",
     template: "%s - MDS Mechanical Services",
   },
   description:
-    "HVAC | Heating | Gas | Air Conditioning | Plumbing | Electrical | 24/7 Emergency Services",
+    "HVAC | Heating | Gas | Air Conditioning | Electrical | 24/7 Emergency Services",
   twitter: {
     title: "MDS Mechanical Services",
     card: "summary_large_image",
     description:
-      "HVAC | Heating | Gas | Air Conditioning | Plumbing | Electrical | 24/7 Emergency Services",
+      "HVAC | Heating | Gas | Air Conditioning | Electrical | 24/7 Emergency Services",
   },
   keywords:
-    ["Hamilton", "Niagara Region", "Ontario", "HVAC", "Heating", "Gas", "Air Conditioning", "Plumbing", "Electrical", "24/7 Emergency Services"],
+    ["Hamilton", "Niagara Region", "Ontario", "HVAC", "Heating", "Gas", "Air Conditioning", "Electrical", "24/7 Emergency Services"],
   creator: "Web Development Hamilton | www.webdevelopmenthamilton.com",
   publisher: "Web Development Hamilton | www.webdevelopmenthamilton.com",
 };
