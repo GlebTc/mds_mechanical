@@ -5,7 +5,33 @@ import constants from '@/utils/constants/constans.json';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
-  title: 'Contact Us',
+  title: 'Contact Us - MDS Mechanical Services',
+  description: 'Get in touch with MDS Mechanical Services for all your HVAC, heating, gas, air conditioning, and electrical needs. We are here to assist you 24/7 in Hamilton and the Niagara Region.',
+  keywords: [
+    'MDS Mechanical Services',
+    'Contact MDS Mechanical Services',
+    'HVAC',
+    'Heating',
+    'Gas',
+    'Air Conditioning',
+    'Electrical',
+    '24/7 Emergency Services',
+    'Hamilton',
+    'Niagara Region',
+    'Ontario',
+    'Contact',
+  ],
+  twitter: {
+    title: 'Contact Us - MDS Mechanical Services',
+    card: 'summary_large_image',
+    description: 'Get in touch with MDS Mechanical Services for all your HVAC, heating, gas, air conditioning, and electrical needs. We are here to assist you 24/7 in Hamilton and the Niagara Region.',
+  },
+  openGraph: {
+    title: 'Contact Us - MDS Mechanical Services',
+    description: 'Get in touch with MDS Mechanical Services for all your HVAC, heating, gas, air conditioning, and electrical needs. We are here to assist you 24/7 in Hamilton and the Niagara Region.',
+    url: 'https://www.mdsmechanicalinc.ca/contact-us',
+    type: 'website',
+  },
 };
 
 const ContactPage = () => {

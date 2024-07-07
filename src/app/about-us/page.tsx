@@ -6,7 +6,36 @@ import about from '@/utils/constants/content/about_us.json';
 import constants from '@/utils/constants/constans.json';
 
 export const metadata: Metadata = {
-  title: 'About Us',
+  title: 'About Us - MDS Mechanical Services',
+  description:
+    'Learn more about MDS Mechanical Services, our team, and our commitment to providing top-quality HVAC, heating, gas, air conditioning, and electrical services in Hamilton and the Niagara Region.',
+  keywords: [
+    'MDS Mechanical Services',
+    'About MDS Mechanical',
+    'HVAC services',
+    'Heating services',
+    'Air Conditioning services',
+    'Gas services',
+    'Electrical services',
+    'Hamilton',
+    'Niagara Region',
+    'Ontario',
+    'About Us',
+    'Our Team',
+  ],
+  twitter: {
+    title: 'About Us - MDS Mechanical Services',
+    card: 'summary_large_image',
+    description:
+      'Learn more about MDS Mechanical Services, our team, and our commitment to providing top-quality HVAC, heating, gas, air conditioning, and electrical services in Hamilton and the Niagara Region.',
+  },
+  openGraph: {
+    title: 'About Us - MDS Mechanical Services',
+    description:
+      'Learn more about MDS Mechanical Services, our team, and our commitment to providing top-quality HVAC, heating, gas, air conditioning, and electrical services in Hamilton and the Niagara Region.',
+    url: 'https://www.mdsmechanicalinc.ca/about-us',
+    type: 'website',
+  },
 };
 
 const AboutUs = () => {
