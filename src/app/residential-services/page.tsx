@@ -4,7 +4,34 @@ import constants from '@/utils/constants/constans.json';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
-  title: 'Residential Services',
+  title: 'Residential Services - MDS Mechanical Services',
+  description:
+    'Explore our comprehensive residential HVAC, heating, gas, air conditioning, and electrical services. MDS Mechanical Services is your reliable partner for all home comfort needs in Hamilton and the Niagara Region.',
+  keywords: [
+    'Residential HVAC Services',
+    'Heating Services',
+    'Gas Services',
+    'Air Conditioning Services',
+    'Electrical Services',
+    'Home Comfort Solutions',
+    'MDS Mechanical Services',
+    'Hamilton',
+    'Niagara Region',
+    'Ontario',
+  ],
+  twitter: {
+    title: 'Residential Services - MDS Mechanical Services',
+    card: 'summary_large_image',
+    description:
+      'Explore our comprehensive residential HVAC, heating, gas, air conditioning, and electrical services. MDS Mechanical Services is your reliable partner for all home comfort needs in Hamilton and the Niagara Region.',
+  },
+  openGraph: {
+    title: 'Residential Services - MDS Mechanical Services',
+    description:
+      'Explore our comprehensive residential HVAC, heating, gas, air conditioning, and electrical services. MDS Mechanical Services is your reliable partner for all home comfort needs in Hamilton and the Niagara Region.',
+    url: 'https://www.mdsmechanicalinc.ca/residential-services',
+    type: 'website',
+  },
 };
 
 const ResidentialServices = () => {

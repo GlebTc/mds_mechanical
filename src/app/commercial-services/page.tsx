@@ -4,7 +4,35 @@ import constants from '@/utils/constants/constans.json';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
-  title: 'Commercial & Industrial Services',
+  title: 'Commercial & Industrial Services - MDS Mechanical Services',
+  description:
+    'Explore the range of commercial and industrial services offered by MDS Mechanical Services. We provide top-quality HVAC, heating, gas, air conditioning, and electrical solutions for businesses in Hamilton and the Niagara Region.',
+  keywords: [
+    'MDS Mechanical Services',
+    'Commercial Services',
+    'Industrial Services',
+    'HVAC',
+    'Heating',
+    'Gas',
+    'Air Conditioning',
+    'Electrical',
+    'Hamilton',
+    'Niagara Region',
+    'Ontario',
+  ],
+  twitter: {
+    title: 'Commercial & Industrial Services - MDS Mechanical Services',
+    card: 'summary_large_image',
+    description:
+      'Explore the range of commercial and industrial services offered by MDS Mechanical Services. We provide top-quality HVAC, heating, gas, air conditioning, and electrical solutions for businesses in Hamilton and the Niagara Region.',
+  },
+  openGraph: {
+    title: 'Commercial & Industrial Services - MDS Mechanical Services',
+    description:
+      'Explore the range of commercial and industrial services offered by MDS Mechanical Services. We provide top-quality HVAC, heating, gas, air conditioning, and electrical solutions for businesses in Hamilton and the Niagara Region.',
+    url: 'https://www.mdsmechanicalinc.ca/commercial-services',
+    type: 'website',
+  },
 };
 
 const CommercialServices = () => {
