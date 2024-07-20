@@ -18,8 +18,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="w-full bg-gray-700 p-2">
-        <a
-          href="https://www.webdevelopmenthamilton.com"
+        <div
           className="text-[#90cdf4] text-2xl font-bold text-center hover:text-blue-100 w-fit mx-auto"
           aria-label={`© ${currentYear} Web Development Hamilton. All rights reserved. | www.webdevelopmenthamilton.com | Web Development Hamilton`}
           title={`© ${currentYear} Web Development Hamilton. All rights reserved. | www.webdevelopmenthamilton.com | Web Development Hamilton`}
@@ -27,7 +26,7 @@ const Footer = () => {
           <h2>
             &copy; {currentYear} Web Development Hamilton. All rights reserved.
           </h2>
-        </a>
+        </div>
       </div>
     </div>
   );
