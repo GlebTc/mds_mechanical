@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Contact Us - MDS Mechanical Services',
     description: 'Get in touch with MDS Mechanical Services for all your HVAC, heating, gas, air conditioning, and electrical needs. We are here to assist you 24/7 in Hamilton and the Niagara Region.',
-    url: 'https://www.mdsmechanicalinc.ca/contact-us',
+    url: 'https://www.mdsmechanicalinc.ca/contact',
     type: 'website',
   },
 };
