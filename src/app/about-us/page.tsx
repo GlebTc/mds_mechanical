@@ -5,32 +5,28 @@ import main_about_two from '../../../public/assets/images/main_about_two.webp';
 import about from '@/utils/constants/content/about_us.json';
 import constants from '@/utils/constants/constans.json';
 
+
 export const metadata: Metadata = {
-  title: 'About Us - MDS Mechanical Services',
+  title: 'About Us',
   description:
     'Learn more about MDS Mechanical Services, our team, and our commitment to providing top-quality HVAC, heating, gas, air conditioning, and electrical services in Hamilton and the Niagara Region.',
   keywords: [
-    'MDS Mechanical Services',
-    'About MDS Mechanical',
-    'HVAC services',
-    'Heating services',
-    'Air Conditioning services',
-    'Gas services',
-    'Electrical services',
-    'Hamilton',
-    'Niagara Region',
-    'Ontario',
-    'About Us',
-    'Our Team',
+    "About MDS Mechanical Services",
+    "HVAC Hamilton",
+    "HVAC Hamilton Ontario",
+    "air conditioning system",
+    "heating system",
+    "air conditioning",
+    "air conditioning installations"
   ],
   twitter: {
-    title: 'About Us - MDS Mechanical Services',
+    title: 'About Us - MDS Mechanical Services | HVAC Hamilton & Niagara Region',
     card: 'summary_large_image',
     description:
       'Learn more about MDS Mechanical Services, our team, and our commitment to providing top-quality HVAC, heating, gas, air conditioning, and electrical services in Hamilton and the Niagara Region.',
   },
   openGraph: {
-    title: 'About Us - MDS Mechanical Services',
+    title: 'About Us - MDS Mechanical Services | HVAC Hamilton & Niagara Region',
     description:
       'Learn more about MDS Mechanical Services, our team, and our commitment to providing top-quality HVAC, heating, gas, air conditioning, and electrical services in Hamilton and the Niagara Region.',
     url: 'https://www.mdsmechanicalinc.ca/about-us',
