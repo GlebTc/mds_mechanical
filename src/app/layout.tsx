@@ -5,6 +5,7 @@ import './globals.css';
 import Navbar from '@/components/navbar/Navbar';
 import Footer from '@/components/footer/Footer';
 
+// https://youtu.be/JiF0C6k8yzM?si=WyUm6nxuTMwNGWFX
 // https://nextjs.org/docs/app/building-your-application/optimizing/third-party-libraries
 
 const inter = Inter({ subsets: ['latin'] });
