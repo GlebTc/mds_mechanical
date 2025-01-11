@@ -38,10 +38,8 @@ const Services = () => {
               </p>
             </a>
 
-            <p className='mb-4'>
-              {services.main_services_text.commercial.first_paragraph}
-            </p>
-            <p>{services.main_services_text.commercial.second_paragraph}</p>
+            <p className='mb-4' dangerouslySetInnerHTML={{ __html: services.main_services_text.commercial.first_paragraph }} />
+            <p dangerouslySetInnerHTML={{ __html: services.main_services_text.commercial.second_paragraph }} />
             <div className='my-4'>
               <LearnMore
                 section='About Commercial Services'
@@ -58,8 +56,8 @@ const Services = () => {
             >
               <Image
                 src='https://www.svgrepo.com/show/86988/home.svg'
-                alt={`${constants.aria_label} | Residentail Services Image`}
-                title={`${constants.aria_label} | Residentail Services Image`}
+                alt={`${constants.aria_label} | Residential Services Image`}
+                title={`${constants.aria_label} | Residential Services Image`}
                 height={40}
                 width={40}
               />
@@ -67,10 +65,8 @@ const Services = () => {
                 {services.main_services_text.residential.title}
               </p>
             </a>
-            <p className='mb-4'>
-              {services.main_services_text.residential.first_paragraph}
-            </p>
-            <p>{services.main_services_text.residential.second_paragraph}</p>
+            <p className='mb-4' dangerouslySetInnerHTML={{ __html: services.main_services_text.residential.first_paragraph }} />
+            <p dangerouslySetInnerHTML={{ __html: services.main_services_text.residential.second_paragraph }} />
             <div className='my-4'>
               <LearnMore
                 section='About Residential Services'

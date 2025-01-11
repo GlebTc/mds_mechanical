@@ -38,6 +38,7 @@ export const metadata: Metadata = {
 const CommercialServices = () => {
   const contentArray =
     services.commercial_services_text.commercial_content_array;
+  
   return (
     <div className='COMMERCIAL_SERVICES_MAIN_CONTAINER relative h-full w-full mx-auto flex flex-col justify-between bg-gray-200 '>
       <div className='COMMERCIAL_SERVICES_WRAPPER_CONTAINER max-w-[1200px] mx-auto px-4 mb-8'>
@@ -64,9 +65,10 @@ const CommercialServices = () => {
                 <p className='text-md sm:text-lg md:text-xl font-bold mt-8'>
                   {content.title}
                 </p>
-                <p className='text-md sm:text-lg md:text-xl'>
-                  {content.content}
-                </p>
+                <p
+                  className='text-md sm:text-lg md:text-xl'
+                  dangerouslySetInnerHTML={{ __html: content.content }}
+                />
               </div>
             );
           })}

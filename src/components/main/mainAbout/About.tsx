@@ -37,12 +37,14 @@ const About = () => {
             />
           </div>
           <div className='md:max-w-[50%] lg:max-w-[60%]'>
-            <p className='mb-4 lg:text-md xl:text-lg text-justify'>
-              {about.main_about_us_text.first_paragraph}
-            </p>
-            <p className='lg:text-md xl:text-lg'>
-              {about.main_about_us_text.second_paragraph}
-            </p>
+            <p
+              className='mb-4 lg:text-md xl:text-lg text-justify'
+              dangerouslySetInnerHTML={{ __html: about.main_about_us_text.first_paragraph }}
+            />
+            <p
+              className='lg:text-md xl:text-lg'
+              dangerouslySetInnerHTML={{ __html: about.main_about_us_text.second_paragraph }}
+            />
             <div className='flex justify-center my-4 text-justify'>
               <LearnMore
                 section='About Us'

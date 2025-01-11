@@ -3,12 +3,12 @@
     "residential": {
       "title": "Residential Services",
       "first_paragraph": "At MDS Mechanical, we understand the importance of maintaining the longevity and efficiency of your residential HVAC systems. Our comprehensive residential services include regular cleaning and maintenance to ensure optimal performance and energy efficiency. Our team of highly-trained technicians is dedicated to providing you with the highest level of service, ensuring that your heating and hot water systems operate at their best.",
-      "second_paragraph": "We believe that comfort is key to a high quality of life. Our residential services not only ensure that your HVAC systems function flawlessly but also provide you with the comfort and peace of mind you deserve. By protecting you from the challenges posed by extreme weather conditions, we strive to enhance your overall living experience."
+      "second_paragraph": "We believe that <strong>comfort</strong> is key to a high quality of life. Our residential services not only ensure that your HVAC systems function flawlessly but also provide you with the comfort and peace of mind you deserve. By protecting you from the challenges posed by <strong>extreme weather conditions</strong>, we strive to enhance your overall living experience."
     },
     "commercial": {
       "title": "Industrial and Commercial Services",
-      "first_paragraph": "MDS Mechanical is your trusted partner for a wide range of commercial HVAC services. From boiler room retrofits to commercial water heater and storage tank replacements, hydronic in-floor heating, snow melt systems, and radiant tube heater installations, we have the expertise and experience to handle all your commercial HVAC needs. Our commitment to quality and customer satisfaction sets us apart.",
-      "second_paragraph": "When it comes to industrial and commercial services, compliance with building regulations and equipment guidelines is paramount. Our meticulous adherence to industry standards ensures that your systems are not only efficient and reliable but also compliant with all relevant codes and regulations. With MDS Mechanical, you can rest assured that your commercial HVAC needs are in capable and reliable hands."
+      "first_paragraph": "MDS Mechanical is your trusted partner for a wide range of <strong>commercial HVAC services</strong>. From <strong>boiler room retrofits</strong> to <strong>commercial water heater</strong> and <strong>storage tank replacements</strong>, <strong>hydronic in-floor heating</strong>, <strong>snow melt systems</strong>, and <strong>radiant tube heater installations</strong>, we have the expertise and experience to handle all your <strong>commercial HVAC</strong> needs. Our commitment to quality and customer satisfaction sets us apart.",
+      "second_paragraph": "When it comes to industrial and commercial services, compliance with building regulations and equipment guidelines is paramount. Our meticulous adherence to <strong>industry standards</strong> ensures that your systems are not only efficient and reliable but also compliant with all relevant codes and regulations. With MDS Mechanical, you can rest assured that your <strong>commercial HVAC needs</strong> are in capable and reliable hands."
     }
   },
   "residential_services_text": {
@@ -18,49 +18,49 @@
         "title": "Furnaces",
         "section_id": "furnaces",
         "href": "/residential-services#furnaces",
-        "content": "We specialize in installing, repairing, and maintaining a wide range of furnaces, ensuring that your home or business stays warm and comfortable throughout the year. Our team of certified technicians is equipped to handle all types of furnace systems, from traditional gas and oil furnaces to high-efficiency models."
+        "content": "We specialize in installing, repairing, and maintaining a wide range of <strong>furnaces</strong>, ensuring that your home or business stays warm and comfortable throughout the year. Our team of certified technicians is equipped to handle all types of furnace systems, from <strong>traditional gas</strong> and <strong>oil furnaces</strong> to <strong>high-efficiency models</strong>."
       },
       {
         "title": "Air Conditioners",
         "section_id": "air-conditioners",
         "href": "/residential-services#air-conditioners",
-        "content": "Beat the heat with our expert air conditioning services. Whether you need a new AC unit installed, repairs for an existing system, or regular maintenance to keep your cooling system running efficiently, we have you covered. We work with leading brands to provide reliable and energy-efficient cooling solutions."
+        "content": "Beat the heat with our expert <strong>air conditioning services</strong>. Whether you need a new <strong>AC unit installed</strong>, repairs for an existing system, or regular maintenance to keep your cooling system running efficiently, we have you covered. We work with leading brands to provide reliable and energy-efficient cooling solutions."
       },
       {
         "title": "Water Heaters (Tankless)",
         "section_id": "water-heaters",
         "href": "/residential-services#water-heaters",
-        "content": "Enjoy endless hot water and energy savings with our tankless water heater installations. Our team will help you choose the right size and type of tankless water heater for your home or business, ensuring optimal performance and comfort."
+        "content": "Enjoy endless hot water and energy savings with our <strong>tankless water heater installations</strong>. Our team will help you choose the right size and type of tankless water heater for your home or business, ensuring optimal performance and comfort."
       },
       {
         "title": "Boilers",
         "section_id": "boilers",
         "href": "/residential-services#boilers",
-        "content": "For efficient and reliable heating, our boiler services are second to none. We install, repair, and maintain all types of boilers, including steam boilers, hot water boilers, and combination boilers, ensuring consistent warmth and comfort."
+        "content": "For efficient and reliable heating, our <strong>boiler services</strong> are second to none. We install, repair, and maintain all types of boilers, including <strong>steam boilers</strong>, <strong>hot water boilers</strong>, and <strong>combination boilers</strong>, ensuring consistent warmth and comfort."
       },
       {
         "title": "Custom Hood Ranges",
         "section_id": "custom-hood-ranges",
         "href": "/residential-services#custom-hood-ranges",
-        "content": "Create a stylish and functional kitchen with our custom hood range solutions. We design and install custom hood ranges that not only enhance the aesthetics of your kitchen but also improve air quality by removing smoke, odors, and grease."
+        "content": "Create a stylish and functional kitchen with our <strong>custom hood range solutions</strong>. We design and install custom hood ranges that not only enhance the aesthetics of your kitchen but also improve air quality by removing smoke, odors, and grease."
       },
       {
         "title": "Exhaust Fans",
         "section_id": "exhaust-fans",
         "href": "/residential-services#exhaust-fans",
-        "content": "Improve ventilation and air quality in your home or commercial space with our exhaust fan installations. Our exhaust fans are designed to effectively remove stale air, moisture, and pollutants, creating a healthier indoor environment."
+        "content": "Improve ventilation and air quality in your home or commercial space with our <strong>exhaust fan installations</strong>. Our exhaust fans are designed to effectively remove stale air, moisture, and pollutants, creating a healthier indoor environment."
       },
       {
         "title": "Radiant/Infloor Heating",
         "section_id": "infloor-heating",
         "href": "/residential-services#infloor-heating",
-        "content": "Experience the ultimate in comfort with our radiant and infloor heating systems. We design and install radiant heating solutions that distribute heat evenly throughout your space, eliminating cold spots and reducing energy costs."
+        "content": "Experience the ultimate in comfort with our <strong>radiant and infloor heating systems</strong>. We design and install radiant heating solutions that distribute heat evenly throughout your space, eliminating cold spots and reducing energy costs."
       },
       {
         "title": "Custom Sheet Metal",
         "section_id": "custom-sheet-metal",
         "href": "/residential-services#custom-sheet-metal",
-        "content": "Our in-house sheet metal fabrication services allow us to create custom solutions for HVAC ductwork, flashing, gutters, and more. We use high-quality materials and precision craftsmanship to ensure durable and functional sheet metal products."
+        "content": "Our in-house <strong>sheet metal fabrication services</strong> allow us to create custom solutions for HVAC ductwork, flashing, gutters, and more. We use high-quality materials and precision craftsmanship to ensure durable and functional sheet metal products."
       }
     ]
   },
@@ -71,44 +71,44 @@
         "title": "Preventative Maintenance",
         "section_id": "preventative-maintenance",
         "href": "/commercial-services#preventative-maintenance",
-        "content": "Our preventative maintenance services are designed to keep your HVAC systems running smoothly and efficiently. We offer scheduled inspections, cleaning, and tune-ups to identify and address potential issues before they escalate, saving you time and money in the long run."
+        "content": "Our <strong>preventative maintenance services</strong> are designed to keep your HVAC systems running smoothly and efficiently. We offer scheduled inspections, cleaning, and tune-ups to identify and address potential issues before they escalate, saving you time and money in the long run."
       },
       {
         "title": "HVAC",
         "section_id": "hvac",
         "href": "/commercial-services#hvac",
-        "content": "Our HVAC services cover a wide range of heating, ventilation, and air conditioning needs for commercial properties. From system installations and upgrades to repairs and maintenance, we ensure optimal performance and comfort for your workspace."
+        "content": "Our <strong>HVAC services</strong> cover a wide range of heating, ventilation, and air conditioning needs for commercial properties. From system installations and upgrades to repairs and maintenance, we ensure optimal performance and comfort for your workspace."
       },
       {
         "title": "Refrigeration",
         "section_id": "refrigeration",
         "href": "/commercial-services#refrigeration",
-        "content": "Keep your perishable goods fresh and safe with our expert refrigeration services. We install, repair, and maintain commercial refrigeration systems, including walk-in coolers, freezers, refrigerated display cases, and more, to meet your business's refrigeration needs."
+        "content": "Keep your perishable goods fresh and safe with our expert <strong>refrigeration services</strong>. We install, repair, and maintain commercial refrigeration systems, including walk-in coolers, freezers, refrigerated display cases, and more, to meet your business's refrigeration needs."
       },
       {
         "title": "Sheet Metal",
         "section_id": "sheet-metal",
         "href": "/commercial-services#sheet-metal",
-        "content": "Our sheet metal services encompass custom fabrication, installation, and repair of HVAC ductwork, ventilation systems, and other sheet metal components for commercial buildings. We prioritize quality craftsmanship and precision to deliver durable and efficient solutions."
+        "content": "Our <strong>sheet metal services</strong> encompass custom fabrication, installation, and repair of HVAC ductwork, ventilation systems, and other sheet metal components for commercial buildings. We prioritize quality craftsmanship and precision to deliver durable and efficient solutions."
       },
       {
         "title": "Boilers",
         "section_id": "boilers",
         "href": "/commercial-services#boilers",
-        "content": "Ensure reliable heating for your commercial property with our boiler services. We handle boiler installations, repairs, and maintenance to keep your heating system running efficiently and effectively, providing a comfortable environment for your employees and customers."
+        "content": "Ensure reliable heating for your commercial property with our <strong>boiler services</strong>. We handle boiler installations, repairs, and maintenance to keep your heating system running efficiently and effectively, providing a comfortable environment for your employees and customers."
       },
       {
         "title": "Air Makeup Units",
         "section_id": "air-makeup-units",
         "href": "/commercial-services#air-makeup-units",
-        "content": "Improve indoor air quality and ventilation with our air makeup unit installations and services. We design and install air makeup units to replenish indoor air in commercial spaces, ensuring proper ventilation and a healthier environment for occupants."
+        "content": "Improve indoor air quality and ventilation with our <strong>air makeup unit installations</strong> and services. We design and install air makeup units to replenish indoor air in commercial spaces, ensuring proper ventilation and a healthier environment for occupants."
       },
       {
         "title": "Exhaust Systems",
         "section_id": "exhaust-systems",
         "href": "/commercial-services#exhaust-systems",
-        "content": "Enhance air quality and remove pollutants from your commercial space with our exhaust system solutions. We install, repair, and maintain exhaust systems, including kitchen hoods, ventilation fans, and exhaust ductwork, to create a safe and comfortable working environment."
+        "content": "Enhance air quality and remove pollutants from your commercial space with our <strong>exhaust system solutions</strong>. We install, repair, and maintain exhaust systems, including kitchen hoods, ventilation fans, and exhaust ductwork, to create a safe and comfortable working environment."
       }
     ]
-  }  
+  }
 }
